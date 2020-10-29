@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Winter Rocks_Tree Bark
+  m_Name: Land Cave Biome
   m_Shader: {fileID: 4800000, guid: dc9855e4a457c754fa954151801a1170, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -21,7 +21,7 @@ Material:
     m_TexEnvs: []
     m_Floats: []
     m_Colors:
-    - _Down: {r: 0.26415092, g: 0.031149868, b: 0.031149868, a: 1}
-    - _Emission: {r: 0.043832317, g: 0.045188174, b: 0.047169805, a: 1}
-    - _Top: {r: 1, g: 1, b: 1, a: 1}
+    - _Down: {r: 0.9528302, g: 0.84262896, b: 0.61574405, a: 1}
+    - _Emission: {r: 0.4339623, g: 0.21844967, b: 0.09211465, a: 1}
+    - _Top: {r: 0.7169812, g: 0.64595944, b: 0.503916, a: 1}
   m_BuildTextureStacks: []

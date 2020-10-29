@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Winter Rocks_Tree Bark
+  m_Name: Land City
   m_Shader: {fileID: 4800000, guid: dc9855e4a457c754fa954151801a1170, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -21,7 +21,7 @@ Material:
     m_TexEnvs: []
     m_Floats: []
     m_Colors:
-    - _Down: {r: 0.26415092, g: 0.031149868, b: 0.031149868, a: 1}
-    - _Emission: {r: 0.043832317, g: 0.045188174, b: 0.047169805, a: 1}
-    - _Top: {r: 1, g: 1, b: 1, a: 1}
+    - _Down: {r: 0.46453363, g: 0.6033781, b: 0.6886792, a: 1}
+    - _Emission: {r: 0, g: 0.08088237, b: 0, a: 1}
+    - _Top: {r: 0.6700932, g: 0.6452474, b: 0.9433962, a: 0.27058825}
   m_BuildTextureStacks: []

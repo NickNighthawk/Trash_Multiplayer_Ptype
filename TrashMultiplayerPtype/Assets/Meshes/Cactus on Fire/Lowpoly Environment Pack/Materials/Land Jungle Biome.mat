@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Winter Rocks_Tree Bark
+  m_Name: Land Jungle Biome
   m_Shader: {fileID: 4800000, guid: dc9855e4a457c754fa954151801a1170, type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -19,9 +19,13 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
-    m_Floats: []
+    m_Floats:
+    - _GlossyReflections: 1
+    - _SpecularHighlights: 1
+    - __dirty: 0
     m_Colors:
-    - _Down: {r: 0.26415092, g: 0.031149868, b: 0.031149868, a: 1}
-    - _Emission: {r: 0.043832317, g: 0.045188174, b: 0.047169805, a: 1}
-    - _Top: {r: 1, g: 1, b: 1, a: 1}
+    - _Down: {r: 0.8018868, g: 0.20198472, b: 0.10969208, a: 1}
+    - _Emission: {r: 0.08597373, g: 0.0014684978, b: 0.31132078, a: 0}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Top: {r: 0.583345, g: 0.5803922, b: 0.6509804, a: 0.6117647}
   m_BuildTextureStacks: []
