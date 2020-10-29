@@ -19,6 +19,7 @@ public class PlayerMoveSystem : SystemBase
             .ForEach((ref Movable mov) =>
         {
             mov.direction = new float3(x, 0, y);
+            //rot.Value = math.mul(rot.Value, quaternion.RotateY(math.radians(2 * dt)));
         }).Schedule();
 
     }
