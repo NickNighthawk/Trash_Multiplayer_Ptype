@@ -16,7 +16,6 @@ public class MovableSystem : SystemBase
             var step = mov.direction * mov.speed;
             physVel.Linear = step;
             physVel.Angular = 0f;
-            //rot.Value = quaternion.identity;
         }).Schedule();
     }
 }
