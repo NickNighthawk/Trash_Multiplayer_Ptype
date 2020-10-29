@@ -13,7 +13,8 @@ public class PlayerMoveSystem : SystemBase
         var inputX = Input.GetAxis("Horizontal");
         var inputY = Input.GetAxis("Vertical");
         var dt = Time.DeltaTime;
-        float3 cameraPosition = float3.zero;
+        float3 cameraPosition = Camera.main.transform.position;
+
         
         Entities
             .WithAll<CameraTag>()

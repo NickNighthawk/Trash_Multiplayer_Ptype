@@ -4,7 +4,7 @@ using UnityEngine;
 
 [DisallowMultipleComponent]
 [RequiresEntityConversion]
-public class CameraAuthoring : MonoBehaviour, IConvertGameObjectToEntity
+public class FollowAuth : MonoBehaviour, IConvertGameObjectToEntity
 {
     public GameObject followerObject;
     //public AudioListener audioListener;
