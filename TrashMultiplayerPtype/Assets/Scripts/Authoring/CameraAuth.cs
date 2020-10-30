@@ -3,7 +3,7 @@ using Unity.Mathematics;
 using UnityEngine;
 
 [DisallowMultipleComponent]
-[RequiresEntityConversion]
+//[RequiresEntityConversion]
 public class CameraAuth : MonoBehaviour, IConvertGameObjectToEntity
 {
     public AudioListener audioListener;

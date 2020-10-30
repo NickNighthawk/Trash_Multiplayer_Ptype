@@ -3,7 +3,7 @@ using Unity.Mathematics;
 using UnityEngine;
 
 [DisallowMultipleComponent]
-[RequiresEntityConversion]
+//[RequiresEntityConversion]
 public class FollowAuth : MonoBehaviour, IConvertGameObjectToEntity
 {
     public GameObject followerObject;
