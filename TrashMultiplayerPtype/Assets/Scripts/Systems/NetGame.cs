@@ -5,8 +5,9 @@ using Unity.NetCode;
 using Unity.Networking.Transport;
 using Unity.Burst;
 using Unity.Collections;
+using UnityEngine;
 
-public struct EnableNetNetSimpleMove : IComponentData
+public struct EnableNetSimpleMove : IComponentData
 {}
 
 // Control system updating in the default world
@@ -23,6 +24,8 @@ public class NetGame : SystemBase
         RequireSingletonForUpdate<InitGameComponent>();
         if (!UnityEngine.SceneManagement.SceneManager.GetActiveScene().name.StartsWith("Net"))
             return;
+
+        Debug.Log("Creating InitGameComponent...");
         // Create singleton, require singleton for update so system runs once
         EntityManager.CreateEntity(typeof(InitGameComponent));
     }
@@ -36,19 +39,20 @@ public class NetGame : SystemBase
             var network = world.GetExistingSystem<NetworkStreamReceiveSystem>();
             if (world.GetExistingSystem<ClientSimulationSystemGroup>() != null)
             {
-                world.EntityManager.CreateEntity(typeof(EnableNetNetSimpleMove));
+                world.EntityManager.CreateEntity(typeof(EnableNetSimpleMove));
                 // Client worlds automatically connect to localhost
                 NetworkEndPoint ep = NetworkEndPoint.LoopbackIpv4;
                 ep.Port = 7979;
 #if UNITY_EDITOR
                 ep = NetworkEndPoint.Parse(ClientServerBootstrap.RequestedAutoConnect, 7979);
 #endif
+                Debug.Log("Trying to connect to " + ep.Address);
                 network.Connect(ep);
             }
             #if UNITY_EDITOR || UNITY_SERVER
             else if (world.GetExistingSystem<ServerSimulationSystemGroup>() != null)
             {
-                world.EntityManager.CreateEntity(typeof(EnableNetNetSimpleMove));
+                world.EntityManager.CreateEntity(typeof(EnableNetSimpleMove));
                 // Server world automatically listen for connections from any host
                 NetworkEndPoint ep = NetworkEndPoint.AnyIpv4;
                 ep.Port = 7979;
@@ -71,7 +75,7 @@ public class GoInGameClientSystem : SystemBase
 {
     protected override void OnCreate()
     {
-        RequireSingletonForUpdate<EnableNetNetSimpleMove>();
+        RequireSingletonForUpdate<EnableNetSimpleMove>();
         RequireForUpdate(GetEntityQuery(ComponentType.ReadOnly<NetworkIdComponent>(), ComponentType.Exclude<NetworkStreamInGame>()));
     }
 
@@ -96,7 +100,7 @@ public class GoInGameServerSystem : SystemBase
 {
     protected override void OnCreate()
     {
-        RequireSingletonForUpdate<EnableNetNetSimpleMove>();
+        RequireSingletonForUpdate<EnableNetSimpleMove>();
         RequireForUpdate(GetEntityQuery(ComponentType.ReadOnly<GoInGameRequest>(), ComponentType.ReadOnly<ReceiveRpcCommandRequestComponent>()));
     }
 

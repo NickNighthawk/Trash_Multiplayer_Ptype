@@ -21,7 +21,7 @@ public class SampleNetSimpleMoveInput : SystemBase
     protected override void OnCreate()
     {
         RequireSingletonForUpdate<NetworkIdComponent>();
-        RequireSingletonForUpdate<EnableNetNetSimpleMove>();
+        RequireSingletonForUpdate<EnableNetSimpleMove>();
         m_ClientSimulationSystemGroup = World.GetExistingSystem<ClientSimulationSystemGroup>();
     }
 
