@@ -21,7 +21,7 @@ public class Follow : MonoBehaviour
     {
         if (entityToFollow == Entity.Null)
         {
-            entityToFollow = manager.CreateEntityQuery(typeof(Player)).GetSingletonEntity();
+            //entityToFollow = manager.CreateEntityQuery(typeof(CameraTarget)).GetSingletonEntity();
             return;
         }
 

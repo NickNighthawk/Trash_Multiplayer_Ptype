@@ -121,6 +121,10 @@ public class GoInGameServerSystem : SystemBase
             UnityEngine.Debug.Log(String.Format("Server setting connection {0} to in game", networkIdFromEntity[reqSrc.SourceConnection].Value));
 
             var player = commandBuffer.Instantiate(prefab);
+
+            //TODO set camera follow to player
+            //Follow.instance.entityToFollow = player;
+
             commandBuffer.SetComponent(player, new GhostOwnerComponent { NetworkId = networkIdFromEntity[reqSrc.SourceConnection].Value});
 
             commandBuffer.AddBuffer<NetSimpleMoveInput>(player);

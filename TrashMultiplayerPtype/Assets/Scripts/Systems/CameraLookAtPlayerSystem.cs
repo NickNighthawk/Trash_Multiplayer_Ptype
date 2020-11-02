@@ -17,7 +17,7 @@ public class CameraLookAtPlayerSystem : SystemBase
             .WithAll<Player>()
             .ForEach((in Translation translation) =>
             {
-                //playerPosition = translation.Value;
+                playerPosition = translation.Value;
             }).WithoutBurst().Run();
 
         Entities
@@ -26,7 +26,7 @@ public class CameraLookAtPlayerSystem : SystemBase
             {
                 var up = math.cross(new float3(1,0,0), translation.Value - playerPosition);
 
-                //rotation.Value = quaternion.LookRotationSafe((translation.Value - playerPosition), up);
+                rotation.Value = quaternion.LookRotationSafe((translation.Value - playerPosition), up);
 
             }).WithoutBurst().Run();
 
