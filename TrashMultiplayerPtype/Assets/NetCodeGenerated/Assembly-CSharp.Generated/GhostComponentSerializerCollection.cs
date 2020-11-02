@@ -11,7 +11,6 @@ namespace Assembly_CSharp.Generated
         protected override void OnCreate()
         {
             var ghostCollectionSystem = World.GetOrCreateSystem<GhostCollectionSystem>();
-            ghostCollectionSystem.AddSerializer(MovableCubeComponentGhostComponentSerializer.State);
         }
 
         protected override void OnUpdate()

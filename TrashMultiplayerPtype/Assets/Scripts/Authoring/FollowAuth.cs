@@ -7,21 +7,18 @@ using UnityEngine;
 public class FollowAuth : MonoBehaviour, IConvertGameObjectToEntity
 {
     public GameObject followerObject;
-    //public AudioListener audioListener;
-    //public Camera cam;
+
     public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)
     {
-        FollowEntity followEntity = followerObject.GetComponent<FollowEntity>();
-        if (followEntity == null)
+        Follow follow = followerObject.GetComponent<Follow>();
+
+        if (follow == null)
         {
-            followEntity = followerObject.AddComponent<FollowEntity>();
+            follow = followerObject.AddComponent<Follow>();
         }
 
-        followEntity.entityToFollow = entity;
-        
-        //dstManager.AddComponentData(entity, new CameraTag() {}); 
-        //conversionSystem.AddHybridComponent(audioListener);
-        //conversionSystem.AddHybridComponent(cam);
+        follow.entityToFollow = entity;
+
     }
 
 

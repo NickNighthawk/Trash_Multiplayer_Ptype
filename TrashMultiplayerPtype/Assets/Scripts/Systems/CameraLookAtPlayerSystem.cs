@@ -5,21 +5,21 @@ using UnityEngine;
 
 public class CameraLookAtPlayerSystem : SystemBase
 {
-    private float lookSpeed = 2f;
-    
+    //private float lookSpeed = 2f;
+
     float3 playerPosition = float3.zero;
-    
+
     protected override void OnUpdate()
     {
         float deltaTime = Time.DeltaTime;
-        
+
         Entities
             .WithAll<Player>()
             .ForEach((in Translation translation) =>
             {
-                playerPosition = translation.Value;
+                //playerPosition = translation.Value;
             }).WithoutBurst().Run();
-        
+
         Entities
             .WithAll<CameraTag>()
             .ForEach((ref Translation translation, ref Rotation rotation) =>
@@ -29,7 +29,7 @@ public class CameraLookAtPlayerSystem : SystemBase
                 //rotation.Value = quaternion.LookRotationSafe((translation.Value - playerPosition), up);
 
             }).WithoutBurst().Run();
-        
+
     }
 }
 
