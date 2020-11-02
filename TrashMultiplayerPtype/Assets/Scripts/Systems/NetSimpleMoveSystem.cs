@@ -17,14 +17,7 @@ public class NetSimpleMoveSystem : SystemBase
         var tick = m_GhostPredictionSystemGroup.PredictingTick;
         var deltaTime = Time.DeltaTime;
 
-        float3 camPoint = new float3();
-
-        Entities
-            .WithAll<CameraTag>()
-            .ForEach((in Translation trans) =>
-            {
-                camPoint = trans.Value;
-            }).WithoutBurst().Run();
+        float3 camPoint = new float3(Camera.main.transform.position);
 
         // Update player movement
         Entities
@@ -48,14 +41,14 @@ public class NetSimpleMoveSystem : SystemBase
                 trans.Value.z -= deltaTime;
             */
 
-            float3 dirFromCam = trans.Value - camPoint; //new float3(Camera.main.transform.position)
+            float3 dirFromCam = trans.Value - camPoint;
 
             dirFromCam.y = 0;
 
             var forward = math.normalize(dirFromCam);
             var right = math.cross(forward, new float3(0, 1, 0));
 
-            var moveDir = (forward * input.vertical * deltaTime) + (right * -input.horizontal * deltaTime);
+            var moveDir = (forward * input.vertical) + (right * -input.horizontal);
 
             mov.direction = moveDir;
 
