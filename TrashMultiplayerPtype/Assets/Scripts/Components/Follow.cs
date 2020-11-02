@@ -18,8 +18,14 @@ public class Follow : MonoBehaviour
 
     private void LateUpdate()
     {
-        Translation entPos = manager.GetComponentData<Translation>(manager.CreateEntityQuery(typeof(EntityToFollow)).GetSingletonEntity());
+        EntityQuery query = manager.CreateEntityQuery(typeof(EntityToFollow));
 
-        transform.position = entPos.Value + offset;
+        if (!query.IsEmpty)
+        {
+            Translation entPos = manager.GetComponentData<Translation>(query.GetSingletonEntity());
+
+            transform.position = entPos.Value + offset;
+        }
+
     }
 }
