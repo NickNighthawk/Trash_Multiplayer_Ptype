@@ -10,6 +10,7 @@ public class NetCodeBootstrap : ClientServerBootstrap
     {
         var sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
         if (sceneName == "NetSimpleMove" ||
+            sceneName == "NetSimpleMove2" ||
             sceneName.StartsWith("Net"))
             return base.Initialize(defaultWorldName);
 

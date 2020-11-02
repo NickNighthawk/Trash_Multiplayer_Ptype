@@ -21,7 +21,7 @@ public class NetSimpleMoveSystem : SystemBase
 
         // Update player movement
         Entities
-            .WithAll<Player>()
+            .WithAll<NetPlayer>()
             .ForEach((DynamicBuffer<NetSimpleMoveInput> inputBuffer, ref Movable mov, ref Rotation rot, ref Translation trans, in PredictedGhostComponent prediction) =>
         {
             if (!GhostPredictionSystemGroup.ShouldPredict(tick, prediction))
