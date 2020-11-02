@@ -407,6 +407,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ghosts:
-  - prefab: {fileID: 2552174147846842480, guid: bd05f2145763d425091243a36d80d893,
+  - prefab: {fileID: -8876176014356732821, guid: da306c4c06146b447a696433e0ad6fe8,
       type: 3}
     enabled: 1
