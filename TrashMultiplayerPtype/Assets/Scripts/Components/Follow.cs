@@ -7,7 +7,6 @@ using UnityEngine;
 
 public class Follow : MonoBehaviour
 {
-    public Entity entityToFollow;
     public float3 offset = new float3(0f, 0f, 0f);
 
     private EntityManager manager;
@@ -19,13 +18,8 @@ public class Follow : MonoBehaviour
 
     private void LateUpdate()
     {
-        if (entityToFollow == Entity.Null)
-        {
-            //entityToFollow = manager.CreateEntityQuery(typeof(CameraTarget)).GetSingletonEntity();
-            return;
-        }
+        Translation entPos = manager.GetComponentData<Translation>(manager.CreateEntityQuery(typeof(EntityToFollow)).GetSingletonEntity());
 
-        Translation entPos = manager.GetComponentData<Translation>(entityToFollow);
         transform.position = entPos.Value + offset;
     }
 }
