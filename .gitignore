@@ -11,6 +11,10 @@ TrashMultiplayerPtype/[Ll]ogs/
 TrashMultiplayerPtype/[Mm]emoryCaptures/
 TrashMultiplayerPtype/[Rr]ecordings/
 
+# Netcode generated
+TrashMultiplayerPtype/Assets/NetCodeGenerated*
+TrashMultiplayerPtype/Assets/SceneDependencyCache*
+
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
 
