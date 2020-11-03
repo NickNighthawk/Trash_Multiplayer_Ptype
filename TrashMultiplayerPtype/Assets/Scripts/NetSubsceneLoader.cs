@@ -3,22 +3,23 @@ using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Scenes;
 using Unity.Transforms;
+using Unity.NetCode;
 
 
-public class SubsceneLoader : ComponentSystem
+public class NetSubsceneLoader : ComponentSystem
 {
     private SceneSystem sceneSystem;
 
     protected override void OnCreate()
     {
         sceneSystem = World.GetOrCreateSystem<SceneSystem>();
-        RequireSingletonForUpdate<EnableSubsceneLoading>();
+        RequireSingletonForUpdate<EnableNetSubsceneLoading>();
     }
 
     protected override void OnUpdate()
     {
         Entities
-            .WithAll<Player>() //took out movable here
+            .WithAll<NetPlayer>() //took out movable here
             .ForEach((ref Translation translation) =>
             {
                 float loadDistance = SubsceneReferences.instance.loadDistance;
@@ -48,4 +49,5 @@ public class SubsceneLoader : ComponentSystem
     {
         sceneSystem.UnloadScene(subScene.SceneGUID);
     }
+
 }
