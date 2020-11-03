@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using Unity.Transforms;
 using UnityEngine;
 
-public class Follow : MonoBehaviour
+public class FollowMono : MonoBehaviour
 {
     public float3 offset = new float3(0f, 0f, 0f);
 

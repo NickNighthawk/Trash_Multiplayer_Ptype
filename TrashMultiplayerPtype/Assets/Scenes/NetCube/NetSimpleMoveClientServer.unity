@@ -362,7 +362,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 910314299}
-  m_LocalRotation: {x: 0.25181624, y: 0.000000025269093, z: -0.000000006575048, w: 0.9677751}
+  m_LocalRotation: {x: 0.2518162, y: -0.000000003825438, z: 9.953846e-10, w: 0.9677751}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1190,5 +1190,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Ghosts:
   - prefab: {fileID: -8876176014356732821, guid: da306c4c06146b447a696433e0ad6fe8,
+      type: 3}
+    enabled: 1
+  - prefab: {fileID: 3233542765823204239, guid: 8d626a5da79642f45a41d4c529e59077,
       type: 3}
     enabled: 1

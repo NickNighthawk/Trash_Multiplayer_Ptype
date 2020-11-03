@@ -107,12 +107,16 @@ public class GoInGameServerSystem : SystemBase
     protected override void OnUpdate()
     {
         var ghostCollection = GetSingletonEntity<GhostPrefabCollectionComponent>();
-        var prefab = Entity.Null;
+        var playerPrefab = Entity.Null;
+        var subscenePrefab = Entity.Null;
         var prefabs = EntityManager.GetBuffer<GhostPrefabBuffer>(ghostCollection);
         for (int ghostId = 0; ghostId < prefabs.Length; ++ghostId)
         {
             if (EntityManager.HasComponent<NetMovementComponent>(prefabs[ghostId].Value))
-                prefab = prefabs[ghostId].Value;
+                playerPrefab = prefabs[ghostId].Value;
+
+            if (EntityManager.HasComponent<NetSubscene>(prefabs[ghostId].Value))
+                subscenePrefab = prefabs[ghostId].Value;
         }
 
         var commandBuffer = new EntityCommandBuffer(Allocator.Temp);
@@ -124,15 +128,19 @@ public class GoInGameServerSystem : SystemBase
             commandBuffer.AddComponent<NetworkStreamInGame>(reqSrc.SourceConnection);
             UnityEngine.Debug.Log(String.Format("Server setting connection {0} to in game", networkIdFromEntity[reqSrc.SourceConnection].Value));
 
-            var player = commandBuffer.Instantiate(prefab);
+            var player = commandBuffer.Instantiate(playerPrefab);
+            var subscene = commandBuffer.Instantiate(subscenePrefab);
 
             //TODO set camera follow to player
 
-
+            //Player setup
             commandBuffer.SetComponent(player, new GhostOwnerComponent { NetworkId = networkIdFromEntity[reqSrc.SourceConnection].Value});
 
             commandBuffer.AddBuffer<NetSimpleMoveInput>(player);
             commandBuffer.SetComponent(reqSrc.SourceConnection, new CommandTargetComponent {targetEntity = player});
+
+            //Subscene setup
+            commandBuffer.SetComponent(subscene, new GhostOwnerComponent { NetworkId = networkIdFromEntity[reqSrc.SourceConnection].Value});
 
             commandBuffer.DestroyEntity(reqEnt);
         }).Run();
