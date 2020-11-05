@@ -126,11 +126,10 @@ public class GoInGameServerSystem : SystemBase
 
             var player = commandBuffer.Instantiate(prefab);
 
-            //TODO set camera follow to player
+            //Added line below to define player id
 
-
+            commandBuffer.SetComponent(player, new EntityToFollow { playerID = networkIdFromEntity[reqSrc.SourceConnection].Value });
             commandBuffer.SetComponent(player, new GhostOwnerComponent { NetworkId = networkIdFromEntity[reqSrc.SourceConnection].Value});
-
             commandBuffer.AddBuffer<NetSimpleMoveInput>(player);
             commandBuffer.SetComponent(reqSrc.SourceConnection, new CommandTargetComponent {targetEntity = player});
 

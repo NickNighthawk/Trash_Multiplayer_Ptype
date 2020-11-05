@@ -2,9 +2,10 @@
 using Unity.Collections;
 using Unity.Entities;
 using Unity.Mathematics;
+using Unity.NetCode;
 using UnityEngine;
 
 [GenerateAuthoringComponent]
-public struct Player : IComponentData
+public struct NetPlayer : IComponentData
 {
 }

@@ -2,10 +2,11 @@
 using Unity.Collections;
 using Unity.Entities;
 using Unity.Mathematics;
-using UnityEngine;
+using Unity.NetCode;
 
 [GenerateAuthoringComponent]
-
-public struct NetPlayer : IComponentData
+public struct EntityToFollow : IComponentData
 {
+    [GhostField]
+    public int playerID;
 }

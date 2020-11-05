@@ -2,13 +2,15 @@
 using Unity.Mathematics;
 using UnityEngine;
 using Unity.Transforms;
+using Unity.NetCode;
 
 [DisallowMultipleComponent]
 //[RequiresEntityConversion]
-public class FollowAuth : MonoBehaviour, IConvertGameObjectToEntity
+public class PlayerIDAuth : MonoBehaviour, IConvertGameObjectToEntity
 {
+    
     public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)
     {
-        dstManager.AddComponent<EntityToFollow>(entity);
+        dstManager.AddComponentData(entity, new EntityToFollow());
     }
 }
