@@ -27,13 +27,15 @@ public class SubsceneLoader : ComponentSystem
                     if (math.distance(translation.Value, subScene.transform.position) < loadDistance)
                     {
                         LoadSubScene(subScene);
+                        Debug.Log("Loading SubScene " + subScene.SceneName);
                     }
                     else
                     {
                         UnloadSubScene(subScene);
+                        Debug.Log("Unloading SubScene " + subScene.SceneName);
                     }
                 }
-                
+
             });
     }
 
@@ -41,7 +43,7 @@ public class SubsceneLoader : ComponentSystem
     {
         sceneSystem.LoadSceneAsync(subScene.SceneGUID);
     }
-    
+
     private void UnloadSubScene(SubScene subScene)
     {
         sceneSystem.UnloadScene(subScene.SceneGUID);
