@@ -1442,7 +1442,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6733533318110215741}
-  - component: {fileID: 8126578388631611672}
   m_Layer: 0
   m_Name: NetSceneManager
   m_TagString: Untagged
@@ -1465,45 +1464,6 @@ Transform:
   m_Father: {fileID: 3233542765823204237}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8126578388631611672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6733533318110215743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5aec65523232f74cba7fbe51013969a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  subScenes:
-  - {fileID: 3608320260301356123}
-  - {fileID: 3608320260105097075}
-  - {fileID: 3608320259636163608}
-  - {fileID: 3608320260129346888}
-  - {fileID: 3608320259830192217}
-  - {fileID: 3608320259497097395}
-  - {fileID: 3608320259831116940}
-  - {fileID: 3608320259665642108}
-  - {fileID: 3608320261147159865}
-  - {fileID: 3608320260221508379}
-  - {fileID: 3608320259816529186}
-  - {fileID: 3608320261340831921}
-  - {fileID: 3608320260776986489}
-  - {fileID: 3608320259485297766}
-  - {fileID: 3608320259555734684}
-  - {fileID: 3608320260948640861}
-  - {fileID: 3608320260439765366}
-  - {fileID: 3608320261109887577}
-  - {fileID: 3608320259555827112}
-  - {fileID: 3608320261324917729}
-  - {fileID: 3608320260557362217}
-  - {fileID: 3608320260469505118}
-  - {fileID: 3608320260199618936}
-  - {fileID: 3608320261044210731}
-  - {fileID: 3608320259565143138}
-  loadDistance: 15
 --- !u!1 &6733533318916971159
 GameObject:
   m_ObjectHideFlags: 0

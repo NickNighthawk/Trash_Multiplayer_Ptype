@@ -13,24 +13,31 @@ public class NetSubsceneLoader : SystemBase
 
     SceneSystem sceneSystem;
 
-    private SubsceneReference subsceneRef;
+    private NetSubscene netSubsceneData;
 
     protected override void OnCreate()
     {
         m_GhostPredictionSystemGroup = World.GetExistingSystem<GhostPredictionSystemGroup>();
         RequireSingletonForUpdate<EnableNetSubsceneLoading>();
-        RequireSingletonForUpdate<SubsceneReference>();
         sceneSystem = World.GetOrCreateSystem<SceneSystem>();
+
     }
     protected override void OnUpdate()
     {
+
         var tick = m_GhostPredictionSystemGroup.PredictingTick;
         var deltaTime = Time.DeltaTime;
 
-        subsceneRef = World.EntityManager.GetComponentData<SubsceneReference>(World.EntityManager
-            .CreateEntityQuery(typeof(SubsceneReference)).GetSingletonEntity());
+        Entities
+            .ForEach((in NetSubscene netSubscene, in PredictedGhostComponent prediction) =>
+            {
+                if (!GhostPredictionSystemGroup.ShouldPredict(tick, prediction))
+                    return;
 
-        // Update player movement
+                netSubsceneData = netSubscene;
+            }).WithoutBurst().Run();
+
+        // Update subscenes relative to player
         Entities
             .WithAll<NetPlayer>()
             .ForEach((ref Translation trans, in PredictedGhostComponent prediction) =>
@@ -38,20 +45,18 @@ public class NetSubsceneLoader : SystemBase
                 if (!GhostPredictionSystemGroup.ShouldPredict(tick, prediction))
                     return;
 
-                float loadDistance = subsceneRef.LoadDistance;
-
-                foreach (SubScene subscene in subsceneRef.SubScenes)
+                foreach (SubScene subscene in netSubsceneData.SubScenes)
                 {
                     var isLoaded = sceneSystem.IsSceneLoaded(sceneSystem.GetSceneEntity(subscene.SceneGUID));
 
-                    if (!isLoaded && math.distance(trans.Value, subscene.transform.position) <= loadDistance)
+                    if (!isLoaded && math.distance(trans.Value, subscene.transform.position) <= netSubsceneData.LoadDistance)
                     {
                         LoadSubScene(subscene);
                         Debug.Log("Loading SubScene " + subscene.SceneName);
                         return;
                     }
 
-                    if(isLoaded && math.distance(trans.Value, subscene.transform.position) > loadDistance)
+                    if(isLoaded && math.distance(trans.Value, subscene.transform.position) > netSubsceneData.LoadDistance)
                     {
                         UnloadSubScene(subscene);
                         Debug.Log("Unloading SubScene " + subscene.SceneName);
@@ -60,6 +65,7 @@ public class NetSubsceneLoader : SystemBase
                 }
 
             }).WithoutBurst().WithStructuralChanges().Run();
+
     }
 
     private void LoadSubScene(SubScene subScene)
