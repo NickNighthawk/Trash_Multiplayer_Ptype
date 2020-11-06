@@ -109,6 +109,7 @@ public class GoInGameServerSystem : SystemBase
         var ghostCollection = GetSingletonEntity<GhostPrefabCollectionComponent>();
         var playerPrefab = Entity.Null;
         var subscenePrefab = Entity.Null;
+        var cameraPrefab = Entity.Null;
         var prefabs = EntityManager.GetBuffer<GhostPrefabBuffer>(ghostCollection);
         for (int ghostId = 0; ghostId < prefabs.Length; ++ghostId)
         {
@@ -117,6 +118,9 @@ public class GoInGameServerSystem : SystemBase
 
             if (EntityManager.HasComponent<NetSubscene>(prefabs[ghostId].Value))
                 subscenePrefab = prefabs[ghostId].Value;
+
+            if (EntityManager.HasComponent<CameraTag>(prefabs[ghostId].Value))
+                cameraPrefab = prefabs[ghostId].Value;
         }
 
         var commandBuffer = new EntityCommandBuffer(Allocator.Temp);
@@ -130,7 +134,10 @@ public class GoInGameServerSystem : SystemBase
 
             var player = commandBuffer.Instantiate(playerPrefab);
             var subscene = commandBuffer.Instantiate(subscenePrefab);
+            var camera = commandBuffer.Instantiate(cameraPrefab);
 
+            //Camera setup
+            commandBuffer.SetComponent(camera, new GhostOwnerComponent { NetworkId = networkIdFromEntity[reqSrc.SourceConnection].Value});
 
             //Player setup
             commandBuffer.SetComponent(player, new EntityToFollow { playerID = networkIdFromEntity[reqSrc.SourceConnection].Value });

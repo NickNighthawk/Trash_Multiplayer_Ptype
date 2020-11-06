@@ -11,6 +11,7 @@ public class CameraLookAtPlayerSystem : SystemBase
 
     protected override void OnUpdate()
     {
+        /*
         float deltaTime = Time.DeltaTime;
 
         Entities
@@ -29,7 +30,7 @@ public class CameraLookAtPlayerSystem : SystemBase
                 rotation.Value = quaternion.LookRotationSafe((translation.Value - playerPosition), up);
 
             }).WithoutBurst().Run();
-
+            */
     }
 }
 

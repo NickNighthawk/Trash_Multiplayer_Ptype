@@ -17,7 +17,18 @@ public class NetSimpleMoveSystem : SystemBase
         var tick = m_GhostPredictionSystemGroup.PredictingTick;
         var deltaTime = Time.DeltaTime;
 
-        float3 camPoint = new float3(Camera.main.transform.position);
+        float3 camPoint = float3.zero;
+
+        Entities
+            .WithAll<CameraTag>()
+            .ForEach((in Translation translation, in PredictedGhostComponent prediction) =>
+            {
+                if (!GhostPredictionSystemGroup.ShouldPredict(tick, prediction))
+                    return;
+
+                Debug.Log("Setting camera point" + translation.Value);
+                camPoint = translation.Value;
+            }).WithoutBurst().Run();
 
         // Update player movement
         Entities

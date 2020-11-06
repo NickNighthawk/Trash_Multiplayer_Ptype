@@ -152,10 +152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3b6fe50ec227064b87279d91537aa92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset:
-    x: 0
-    y: 0
-    z: 0
 --- !u!4 &372961572
 Transform:
   m_ObjectHideFlags: 0
@@ -1193,5 +1189,8 @@ MonoBehaviour:
       type: 3}
     enabled: 1
   - prefab: {fileID: 3233542765823204239, guid: 8d626a5da79642f45a41d4c529e59077,
+      type: 3}
+    enabled: 1
+  - prefab: {fileID: 2714418147008333674, guid: 45cd2d127257a84499bd680083eef14b,
       type: 3}
     enabled: 1
