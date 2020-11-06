@@ -15,21 +15,4 @@ public class Follow : MonoBehaviour
     {
         instance = this;
     }
-    ////use late update for cams 
-    //private void LateUpdate()
-    //{
-    //    //prev: check if entity to follow is null (assigned in inspector)
-
-    //    Debug.Log("Player entity in mono: " + playerEnt);
-
-    //    //Debug.Log("Query test: " + playerQuery); 
-    //    if (playerEnt == Entity.Null)
-    //        return;
-    //    else
-    //    {
-    //        Translation entityPos = manager.GetComponentData<Translation>(playerEnt);
-    //        //Debug.Log("entity pos: " + entityPos.Value);
-    //        transform.position = entityPos.Value;
-    //    }
-    //}
 }

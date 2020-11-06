@@ -1,11 +1,13 @@
 ﻿using System;
 using AOT;
+using Cinemachine;
 using Unity.Entities;
 using Unity.NetCode;
 using Unity.Networking.Transport;
 using Unity.Burst;
 using Unity.Collections;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public struct EnableNetSimpleMove : IComponentData
 {}
@@ -107,10 +109,15 @@ public class GoInGameServerSystem : SystemBase
     protected override void OnUpdate()
     {
         var ghostCollection = GetSingletonEntity<GhostPrefabCollectionComponent>();
+
         var playerPrefab = Entity.Null;
         var subscenePrefab = Entity.Null;
         var cameraPrefab = Entity.Null;
+        //var followerPrefab = Entity.Null;
+        var cineCamPrefab = Entity.Null;
+
         var prefabs = EntityManager.GetBuffer<GhostPrefabBuffer>(ghostCollection);
+
         for (int ghostId = 0; ghostId < prefabs.Length; ++ghostId)
         {
             if (EntityManager.HasComponent<NetMovementComponent>(prefabs[ghostId].Value))
@@ -121,6 +128,12 @@ public class GoInGameServerSystem : SystemBase
 
             if (EntityManager.HasComponent<CameraTag>(prefabs[ghostId].Value))
                 cameraPrefab = prefabs[ghostId].Value;
+
+            //if (EntityManager.HasComponent<NetFollowTarget>(prefabs[ghostId].Value))
+                //followerPrefab = prefabs[ghostId].Value;
+
+            if (EntityManager.HasComponent<CineCamTag>(prefabs[ghostId].Value))
+                cineCamPrefab = prefabs[ghostId].Value;
         }
 
         var commandBuffer = new EntityCommandBuffer(Allocator.Temp);
@@ -135,6 +148,9 @@ public class GoInGameServerSystem : SystemBase
             var player = commandBuffer.Instantiate(playerPrefab);
             var subscene = commandBuffer.Instantiate(subscenePrefab);
             var camera = commandBuffer.Instantiate(cameraPrefab);
+            var cineCam = commandBuffer.Instantiate(cineCamPrefab);
+
+            //var follower = commandBuffer.Instantiate(followerPrefab);
 
             //Camera setup
             commandBuffer.SetComponent(camera, new GhostOwnerComponent { NetworkId = networkIdFromEntity[reqSrc.SourceConnection].Value});
@@ -144,6 +160,13 @@ public class GoInGameServerSystem : SystemBase
             commandBuffer.SetComponent(player, new GhostOwnerComponent { NetworkId = networkIdFromEntity[reqSrc.SourceConnection].Value});
             commandBuffer.AddBuffer<NetSimpleMoveInput>(player);
             commandBuffer.SetComponent(reqSrc.SourceConnection, new CommandTargetComponent {targetEntity = player});
+
+            //Camera follower
+            //commandBuffer.SetComponent(follower, new NetFollowTarget(){FollowTarget = player});
+            //commandBuffer.SetComponent(follower, new GhostOwnerComponent { NetworkId = networkIdFromEntity[reqSrc.SourceConnection].Value});
+
+            //CineCam setup
+            commandBuffer.SetComponent(cineCam, new GhostOwnerComponent(){ NetworkId = networkIdFromEntity[reqSrc.SourceConnection].Value});
 
             //Subscene setup
             commandBuffer.SetComponent(subscene, new GhostOwnerComponent { NetworkId = networkIdFromEntity[reqSrc.SourceConnection].Value});

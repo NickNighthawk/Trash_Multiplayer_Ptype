@@ -15,6 +15,7 @@ public class CameraFollowSystem : SystemBase
     protected override void OnCreate()
     {
         RequireSingletonForUpdate<NetworkIdComponent>();
+        RequireSingletonForUpdate<Follow>();
         m_GhostPredictionSystemGroup = World.GetExistingSystem<GhostPredictionSystemGroup>();
     }
     protected override void OnUpdate()
@@ -61,8 +62,5 @@ public class CameraFollowSystem : SystemBase
                     GOrot = rot.Value;
                 }
             }).Run();
-
-        Follow.instance.transform.position = GOpos;
-        Follow.instance.transform.rotation = GOrot;
     }
 }
