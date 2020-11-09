@@ -1434,7 +1434,7 @@ MonoBehaviour:
   SupportedGhostModes: 3
   OptimizationMode: 1
   Importance: 1
-  prefabId: 
+  prefabId: ba075d2fb574f8c44a5709eb71fe7cdd
   Name: SubSceneA
 --- !u!114 &8005344188113016182
 MonoBehaviour:

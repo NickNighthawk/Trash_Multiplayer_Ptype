@@ -428,7 +428,7 @@ MonoBehaviour:
   SupportedGhostModes: 3
   OptimizationMode: 0
   Importance: 1
-  prefabId: 
+  prefabId: e7dcad3eb66f184489a4a4e46db2d3ec
   Name: CineCamFreeLook
 --- !u!114 &6590658200950362437
 MonoBehaviour:

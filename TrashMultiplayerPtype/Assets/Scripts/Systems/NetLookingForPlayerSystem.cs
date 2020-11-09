@@ -4,6 +4,7 @@ using Unity.NetCode;
 using Unity.Transforms;
 using UnityEngine;
 using Unity.Mathematics;
+using Unity.Collections;
 
 public class NetLookingForPlayerSystem : SystemBase
 {
@@ -30,15 +31,18 @@ public class NetLookingForPlayerSystem : SystemBase
                 if (!GhostPredictionSystemGroup.ShouldPredict(tick, prediction))
                     return;
 
-                Debug.Log("Found player target " + player);
+                //Debug.Log("Found player target " + player);
 
                 player = e;
 
             }).WithoutBurst().Run();
 
+        if(player == Entity.Null) return;
+
         playerTransform = World.EntityManager.GetComponentObject<Transform>(player);
 
         // Find cinemachine free look camera
+        var commandBuffer = new EntityCommandBuffer(Allocator.Temp);
         Entities
             .WithAll<LookingForPlayer>()
             .ForEach((Entity e, CinemachineFreeLook cineCam, in PredictedGhostComponent prediction) =>
@@ -51,8 +55,9 @@ public class NetLookingForPlayerSystem : SystemBase
                 cineCam.Follow = playerTransform;
                 cineCam.LookAt = playerTransform;
 
-                World.EntityManager.RemoveComponent<LookingForPlayer>(e);
+                commandBuffer.RemoveComponent<LookingForPlayer>(e);
 
-            }).WithoutBurst().WithStructuralChanges().Run();
+            }).WithoutBurst().Run();
+        commandBuffer.Playback(EntityManager);
     }
 }

@@ -2,6 +2,7 @@
 using Unity.Mathematics;
 using Unity.Scenes;
 using UnityEngine;
+using Unity.Transforms;
 
 [DisallowMultipleComponent]
 public class NetSubsceneAuth : MonoBehaviour, IConvertGameObjectToEntity

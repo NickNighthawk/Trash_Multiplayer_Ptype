@@ -9,9 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3233542765823204237}
-  - component: {fileID: 3233542765823204239}
-  - component: {fileID: 3233542765823204236}
   - component: {fileID: 6180825020790828332}
+  - component: {fileID: 2883377000104862985}
+  - component: {fileID: 8108415570740864482}
+  - component: {fileID: 3195449929360796462}
   m_Layer: 0
   m_Name: NetSubSceneGhostGroup
   m_TagString: Untagged
@@ -35,37 +36,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3233542765823204239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3233542765823204274}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c79d771cedb4794bf100ce60df5f764, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ForcePrefabConversion: 0
-  DefaultGhostMode: 2
-  SupportedGhostModes: 3
-  OptimizationMode: 1
-  Importance: 1
-  prefabId: 8d626a5da79642f45a41d4c529e59077
-  Name: NetSubSceneGhostGroup
---- !u!114 &3233542765823204236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3233542765823204274}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1fea7091bb9848b191c018d3718ec0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6180825020790828332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,6 +75,49 @@ MonoBehaviour:
   - {fileID: 3608320261044210731}
   - {fileID: 3608320259565143138}
   loadDistance: 15
+--- !u!114 &2883377000104862985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3233542765823204274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c79d771cedb4794bf100ce60df5f764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ForcePrefabConversion: 0
+  DefaultGhostMode: 2
+  SupportedGhostModes: 3
+  OptimizationMode: 1
+  Importance: 1
+  prefabId: 
+  Name: Subscenes
+--- !u!114 &8108415570740864482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3233542765823204274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1fea7091bb9848b191c018d3718ec0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3195449929360796462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3233542765823204274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f19532c5e00f744b959e355c650e94c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3608320259485297765
 GameObject:
   m_ObjectHideFlags: 0
