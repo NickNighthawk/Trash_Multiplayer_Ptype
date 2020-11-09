@@ -16,12 +16,13 @@ public class NetSimpleMoveSystem : SystemBase
     {
         var tick = m_GhostPredictionSystemGroup.PredictingTick;
         var deltaTime = Time.DeltaTime;
+
         var camList = Camera.allCameras;
         if (camList.Length > 1) 
             Debug.Log("More than one camera (should call error here...)");
 
         float3 camPoint = camList[0].transform.position;
-
+        //float3 camPoint = Camera.current.transform.position;
 
         // Update player movement
         Entities
@@ -45,6 +46,7 @@ public class NetSimpleMoveSystem : SystemBase
                 trans.Value.z -= deltaTime;
             */
 
+           
             float3 dirFromCam = trans.Value - camPoint;
 
             dirFromCam.y = 0;

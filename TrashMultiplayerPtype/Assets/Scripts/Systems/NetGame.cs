@@ -109,7 +109,7 @@ public class GoInGameServerSystem : SystemBase
         var ghostCollection = GetSingletonEntity<GhostPrefabCollectionComponent>();
         var playerPrefab = Entity.Null;
         var subscenePrefab = Entity.Null;
-        var cameraPrefab = Entity.Null;
+        //var cameraPrefab = Entity.Null;
         var prefabs = EntityManager.GetBuffer<GhostPrefabBuffer>(ghostCollection);
         for (int ghostId = 0; ghostId < prefabs.Length; ++ghostId)
         {

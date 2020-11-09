@@ -5,6 +5,7 @@ using Unity.Networking.Transport;
 using Unity.Burst;
 using Unity.Collections;
 using UnityEngine;
+using Unity.Transforms;
 
 public struct NetSimpleMoveInput : ICommandData
 {
@@ -46,7 +47,6 @@ public class SampleNetSimpleMoveInput : SystemBase
         }
         var input = default(NetSimpleMoveInput);
         input.Tick = m_ClientSimulationSystemGroup.ServerTick;
-
         if (Input.GetKey("a"))
             input.horizontal -= 1;
         if (Input.GetKey("d"))

@@ -9,10 +9,6 @@ public class CameraAuth : MonoBehaviour, IConvertGameObjectToEntity
     public AudioListener audioListener;
     public Camera cam;
 
-    private void Awake()
-    {
-        cam = this.gameObject.AddComponent<Camera>();
-    }
 
     public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)
     {

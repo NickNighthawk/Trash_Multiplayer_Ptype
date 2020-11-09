@@ -5,6 +5,7 @@ using Unity.Mathematics;
 using Unity.NetCode;
 using Unity.Transforms;
 using UnityEngine;
+using Cinemachine;
 
 [BurstCompile]
 [UpdateInGroup(typeof(PresentationSystemGroup))]
@@ -16,15 +17,14 @@ public class MirrorPlayerTransformSystem : SystemBase
     }
     protected override void OnUpdate()
     {
-        //var playerEntity = GetSingleton<CommandTargetComponent>().targetEntity;
         int localPlayerID = GetSingleton<NetworkIdComponent>().Value;
-        //Debug.Log("Local player id: " + localPlayerID);
 
         if (Follow.instance == null)
         {
             Debug.Log("instance of follow is null");
             return;
         }
+        
         float3 GOpos = Follow.instance.transform.position;
         quaternion GOrot = Follow.instance.transform.rotation;
 
