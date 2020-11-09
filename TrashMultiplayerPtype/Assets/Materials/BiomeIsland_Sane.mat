@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BiomeVolcanicLava_Mat
+  m_Name: BiomeIsland_Sane
   m_Shader: {fileID: 4800000, guid: dc9855e4a457c754fa954151801a1170, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -21,7 +21,7 @@ Material:
     m_TexEnvs: []
     m_Floats: []
     m_Colors:
-    - _Down: {r: 1, g: 0.5921569, b: 0, a: 1}
-    - _Emission: {r: 0.4245283, g: 0.0024826217, b: 0, a: 1}
-    - _Top: {r: 1, g: 0.52494186, b: 0, a: 1}
+    - _Down: {r: 0.36862746, g: 0, b: 0, a: 1}
+    - _Emission: {r: 0.5849056, g: 0.5246124, b: 0.251068, a: 1}
+    - _Top: {r: 1, g: 0.9948816, b: 0.759434, a: 1}
   m_BuildTextureStacks: []
