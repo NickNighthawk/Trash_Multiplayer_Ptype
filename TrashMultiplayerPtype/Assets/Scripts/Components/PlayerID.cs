@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using Unity.NetCode;
 
 [GenerateAuthoringComponent]
-public struct EntityToFollow : IComponentData
+public struct PlayerID : IComponentData
 {
     [GhostField]
     public int playerID;

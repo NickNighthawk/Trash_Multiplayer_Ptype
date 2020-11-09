@@ -7,15 +7,12 @@ using Unity.Transforms;
 using UnityEngine;
 
 [BurstCompile]
-[UpdateInGroup(typeof(ClientSimulationSystemGroup))]
-[AlwaysSynchronizeSystem]
-public class CameraFollowSystem : SystemBase
+[UpdateInGroup(typeof(PresentationSystemGroup))]
+public class MirrorPlayerTransformSystem : SystemBase
 {
-    GhostPredictionSystemGroup m_GhostPredictionSystemGroup;
     protected override void OnCreate()
     {
         RequireSingletonForUpdate<NetworkIdComponent>();
-        m_GhostPredictionSystemGroup = World.GetExistingSystem<GhostPredictionSystemGroup>();
     }
     protected override void OnUpdate()
     {
@@ -23,9 +20,6 @@ public class CameraFollowSystem : SystemBase
         int localPlayerID = GetSingleton<NetworkIdComponent>().Value;
         //Debug.Log("Local player id: " + localPlayerID);
 
-        var tick = m_GhostPredictionSystemGroup.PredictingTick;
-
-        /*
         if (Follow.instance == null)
         {
             Debug.Log("instance of follow is null");
@@ -33,25 +27,9 @@ public class CameraFollowSystem : SystemBase
         }
         float3 GOpos = Follow.instance.transform.position;
         quaternion GOrot = Follow.instance.transform.rotation;
-        */
-
-        float3 GOpos = float3.zero;
-        quaternion GOrot = quaternion.identity;
 
         Entities
-            .WithAll<NetPlayer>()
-            .ForEach((in Translation translation, in Rotation rot, in PredictedGhostComponent prediction) =>
-            {
-                if (!GhostPredictionSystemGroup.ShouldPredict(tick, prediction))
-                    return;
-
-                GOpos = translation.Value;
-                GOrot = rot.Value;
-
-            }).WithoutBurst().Run();
-
-        Entities
-            .ForEach((Entity e, ref Translation trns, ref Rotation rot, ref EntityToFollow player) =>
+            .ForEach((Entity e, ref Translation trns, ref Rotation rot, ref PlayerID player) =>
             {
                 if (player.playerID == localPlayerID)
                 {

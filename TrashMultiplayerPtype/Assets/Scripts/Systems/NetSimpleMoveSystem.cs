@@ -16,19 +16,12 @@ public class NetSimpleMoveSystem : SystemBase
     {
         var tick = m_GhostPredictionSystemGroup.PredictingTick;
         var deltaTime = Time.DeltaTime;
+        var camList = Camera.allCameras;
+        if (camList.Length > 1) 
+            Debug.Log("More than one camera (should call error here...)");
 
-        float3 camPoint = float3.zero;
+        float3 camPoint = camList[0].transform.position;
 
-        Entities
-            .WithAll<CameraTag>()
-            .ForEach((in Translation translation, in PredictedGhostComponent prediction) =>
-            {
-                if (!GhostPredictionSystemGroup.ShouldPredict(tick, prediction))
-                    return;
-
-                Debug.Log("Setting camera point" + translation.Value);
-                camPoint = translation.Value;
-            }).WithoutBurst().Run();
 
         // Update player movement
         Entities
