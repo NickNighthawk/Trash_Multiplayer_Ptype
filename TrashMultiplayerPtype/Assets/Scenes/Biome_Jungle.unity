@@ -68887,10 +68887,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -600497151126175124, guid: ad217af42f5fc3e4c9301fad045f8fee, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 409e6ef4badc8884fb7fb4cdafb4f25e, type: 2}
     - target: {fileID: 919132149155446097, guid: ad217af42f5fc3e4c9301fad045f8fee, type: 3}
       propertyPath: m_Name
       value: MOME.P4.0001.02_Scale_Blockout_Modular
       objectReference: {fileID: 0}
+    - target: {fileID: 7567297969784913823, guid: ad217af42f5fc3e4c9301fad045f8fee, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7cef1e91944b27f40b804492ba3fca0c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad217af42f5fc3e4c9301fad045f8fee, type: 3}
 --- !u!1001 &1987786002
