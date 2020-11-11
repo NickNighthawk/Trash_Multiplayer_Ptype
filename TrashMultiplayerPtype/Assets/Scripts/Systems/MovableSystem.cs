@@ -15,7 +15,7 @@ public class MovableSystem : SystemBase
         {
             var step = mov.direction * mov.speed;
             physVel.Linear = step;
-            physVel.Angular = 0f;
+            if(mov.lockVerticalRotation) rot.Value = quaternion.LookRotation(math.forward(rot.Value), new float3(0, 1, 0));
         }).Schedule();
     }
 }
