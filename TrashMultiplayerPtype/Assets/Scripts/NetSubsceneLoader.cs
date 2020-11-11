@@ -1,9 +1,12 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Scenes;
 using Unity.Transforms;
 using Unity.NetCode;
+using UnityEngine.Rendering;
+using Unity.Collections;
 
 [UpdateInGroup(typeof(GhostPredictionSystemGroup))]
 [UpdateAfter(typeof(NetSimpleMoveSystem))]
@@ -13,7 +16,6 @@ public class NetSubsceneLoader : SystemBase
 
     SceneSystem sceneSystem;
 
-    private NetSubscene netSubsceneData;
 
     protected override void OnCreate()
     {
@@ -28,35 +30,46 @@ public class NetSubsceneLoader : SystemBase
         var tick = m_GhostPredictionSystemGroup.PredictingTick;
         var deltaTime = Time.DeltaTime;
 
+        NativeList<float3> playerPositions = new NativeList<float3>(Allocator.Temp);
+
+        Entities
+            .WithAll<NetPlayer>()
+            .ForEach((in Translation translation) =>
+        {
+            playerPositions.Add(translation.Value);
+        }).Run();
+
+        Debug.Log(String.Format("SubSceneLoading: {0} Player positions", playerPositions.Length));
+
         Entities
             .ForEach((in NetSubscene netSubscene, in PredictedGhostComponent prediction) =>
             {
                 if (!GhostPredictionSystemGroup.ShouldPredict(tick, prediction))
                     return;
 
-                netSubsceneData = netSubscene;
-            }).WithoutBurst().Run();
-
-        // Update subscenes relative to player
-        Entities
-            .WithAll<NetPlayer>()
-            .ForEach((ref Translation trans, in PredictedGhostComponent prediction) =>
-            {
-                if (!GhostPredictionSystemGroup.ShouldPredict(tick, prediction))
-                    return;
-
-                foreach (SubScene subscene in netSubsceneData.SubScenes)
+                foreach (SubScene subscene in netSubscene.SubScenes)
                 {
                     var isLoaded = sceneSystem.IsSceneLoaded(sceneSystem.GetSceneEntity(subscene.SceneGUID));
 
-                    if (!isLoaded && math.distance(trans.Value, subscene.transform.position) <= netSubsceneData.LoadDistance)
+                    var shouldBeLoaded = false;
+
+                    //check if any player is in range
+                    foreach (float3 playerPosition in playerPositions)
+                    {
+                        if(math.distance(playerPosition, subscene.transform.position) <=
+                                           netSubscene.LoadDistance) shouldBeLoaded = true;
+                    }
+
+                    //if a player is in range & scene isn't loaded, load it
+                    if (!isLoaded && shouldBeLoaded)
                     {
                         LoadSubScene(subscene);
                         Debug.Log("Loading SubScene " + subscene.SceneName);
                         return;
                     }
 
-                    if(isLoaded && math.distance(trans.Value, subscene.transform.position) > netSubsceneData.LoadDistance)
+                    //if no player is in range & scene is loaded, unload it
+                    if(isLoaded && !shouldBeLoaded)
                     {
                         UnloadSubScene(subscene);
                         Debug.Log("Unloading SubScene " + subscene.SceneName);
@@ -66,6 +79,7 @@ public class NetSubsceneLoader : SystemBase
 
             }).WithoutBurst().WithStructuralChanges().Run();
 
+        playerPositions.Dispose();
     }
 
     private void LoadSubScene(SubScene subScene)

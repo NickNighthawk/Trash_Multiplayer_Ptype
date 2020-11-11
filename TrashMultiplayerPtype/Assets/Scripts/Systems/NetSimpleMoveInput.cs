@@ -38,7 +38,7 @@ public class SampleNetSimpleMoveInput : SystemBase
 
         if (mainCam == null)
         {
-            UnityEngine.Debug.Log("Camera not found, defaulting to " + cameraPosition);
+            //UnityEngine.Debug.Log("Camera not found, defaulting to " + cameraPosition);
         }
         else
         {
