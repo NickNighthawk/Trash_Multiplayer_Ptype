@@ -65,8 +65,10 @@ public class NetSimpleMoveSystem : SystemBase
             float3 right = math.cross(forward, new float3(0, 1, 0));
 
             //UnityEngine.Debug.Log("NetMove: right " + right);
+            float3 jumpForce = (input.isJumping ? 1 : 0) * new float3(0, 2, 0);
 
-            float3 moveDir = (forward * input.vertical) + (right * -input.horizontal);
+
+            float3 moveDir = (forward * input.vertical) + (right * -input.horizontal) + jumpForce;
 
             mov.direction = moveDir;
             //UnityEngine.Debug.Log("NetMove: New move direction " + moveDir);

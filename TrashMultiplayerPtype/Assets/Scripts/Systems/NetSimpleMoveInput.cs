@@ -14,6 +14,7 @@ public struct NetSimpleMoveInput : ICommandData
     public int horizontal;
     public int vertical;
     public float3 cameraPosition;
+    public bool isJumping;
 }
 
 [UpdateInGroup(typeof(ClientSimulationSystemGroup))]
@@ -72,6 +73,10 @@ public class SampleNetSimpleMoveInput : SystemBase
             input.vertical -= 1;
         if (Input.GetKey("w"))
             input.vertical += 1;
+        if (Input.GetKey(KeyCode.Space))
+            input.isJumping = true;
+        if (Input.GetKeyUp(KeyCode.Space))
+            input.isJumping = false;
 
         input.cameraPosition = cameraPosition;
 
