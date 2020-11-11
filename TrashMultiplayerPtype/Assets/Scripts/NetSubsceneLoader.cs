@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Scenes;
@@ -29,7 +30,16 @@ public class NetSubsceneLoader : SystemBase
         var tick = m_GhostPredictionSystemGroup.PredictingTick;
         var deltaTime = Time.DeltaTime;
 
-        float3 playerPosition = Follow.instance.transform.position;
+        NativeList<float3> playerPositions = new NativeList<float3>(Allocator.Temp);
+
+        Entities
+            .WithAll<NetPlayer>()
+            .ForEach((in Translation translation) =>
+        {
+            playerPositions.Add(translation.Value);
+        }).Run();
+
+        Debug.Log(String.Format("SubSceneLoading: {0} Player positions", playerPositions.Length));
 
         Entities
             .ForEach((in NetSubscene netSubscene, in PredictedGhostComponent prediction) =>
@@ -41,14 +51,25 @@ public class NetSubsceneLoader : SystemBase
                 {
                     var isLoaded = sceneSystem.IsSceneLoaded(sceneSystem.GetSceneEntity(subscene.SceneGUID));
 
-                    if (!isLoaded && math.distance(playerPosition, subscene.transform.position) <= netSubscene.LoadDistance)
+                    var shouldBeLoaded = false;
+
+                    //check if any player is in range
+                    foreach (float3 playerPosition in playerPositions)
+                    {
+                        if(math.distance(playerPosition, subscene.transform.position) <=
+                                           netSubscene.LoadDistance) shouldBeLoaded = true;
+                    }
+
+                    //if a player is in range & scene isn't loaded, load it
+                    if (!isLoaded && shouldBeLoaded)
                     {
                         LoadSubScene(subscene);
                         Debug.Log("Loading SubScene " + subscene.SceneName);
                         return;
                     }
 
-                    if(isLoaded && math.distance(playerPosition, subscene.transform.position) > netSubscene.LoadDistance)
+                    //if no player is in range & scene is loaded, unload it
+                    if(isLoaded && !shouldBeLoaded)
                     {
                         UnloadSubScene(subscene);
                         Debug.Log("Unloading SubScene " + subscene.SceneName);
@@ -57,6 +78,8 @@ public class NetSubsceneLoader : SystemBase
                 }
 
             }).WithoutBurst().WithStructuralChanges().Run();
+
+        playerPositions.Dispose();
     }
 
     private void LoadSubScene(SubScene subScene)
