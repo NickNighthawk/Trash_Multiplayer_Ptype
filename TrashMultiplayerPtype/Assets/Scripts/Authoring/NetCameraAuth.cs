@@ -8,6 +8,7 @@ using Cinemachine;
 //[RequiresEntityConversion]
 public class NetCameraAuth : MonoBehaviour, IConvertGameObjectToEntity
 {
+    public AudioListener audioListener;
     public Camera cam;
     public CinemachineBrain brain;
 
@@ -15,14 +16,9 @@ public class NetCameraAuth : MonoBehaviour, IConvertGameObjectToEntity
     {
         dstManager.AddComponentData(entity, default(GhostOwnerComponent));
         dstManager.AddComponentData(entity, new CameraTag() { });
-        dstManager.AddComponentData(entity, new LookingForCamera() { });
 
-        conversionSystem.AddHybridComponent(transform);
         conversionSystem.AddHybridComponent(cam);
+        conversionSystem.AddHybridComponent(audioListener);
         conversionSystem.AddHybridComponent(brain);
     }
-}
-
-public class LookingForCamera : IComponentData
-{
 }

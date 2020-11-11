@@ -15,4 +15,5 @@ public class Follow : MonoBehaviour
     {
         instance = this;
     }
+   
 }

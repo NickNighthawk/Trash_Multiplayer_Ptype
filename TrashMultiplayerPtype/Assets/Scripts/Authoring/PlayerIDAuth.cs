@@ -11,6 +11,6 @@ public class PlayerIDAuth : MonoBehaviour, IConvertGameObjectToEntity
     
     public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)
     {
-        dstManager.AddComponentData(entity, new EntityToFollow());
+        dstManager.AddComponentData(entity, new PlayerID());
     }
 }

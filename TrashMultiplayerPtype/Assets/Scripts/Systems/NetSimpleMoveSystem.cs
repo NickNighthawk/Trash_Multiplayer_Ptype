@@ -8,7 +8,7 @@ using Unity.Mathematics;
 public class NetSimpleMoveSystem : SystemBase
 {
     GhostPredictionSystemGroup m_GhostPredictionSystemGroup;
-    private Transform cameraTransform;
+
     protected override void OnCreate()
     {
         m_GhostPredictionSystemGroup = World.GetExistingSystem<GhostPredictionSystemGroup>();
@@ -18,49 +18,78 @@ public class NetSimpleMoveSystem : SystemBase
         var tick = m_GhostPredictionSystemGroup.PredictingTick;
         var deltaTime = Time.DeltaTime;
 
-        Entities
-            .WithAll<LookingForCamera>()
-            .ForEach((Entity e, in PredictedGhostComponent prediction) =>
-            {
-                if (!GhostPredictionSystemGroup.ShouldPredict(tick, prediction))
-                    return;
+        //float maxCamDistance = 5f;
+        float3 camDebugPos = new float3(0,2,2);
 
-                Debug.Log("Found camera" + e);
-                cameraTransform = World.EntityManager.GetComponentObject<Transform>(e);
+        var camList = Camera.allCameras;
+        if (camList.Length > 1)
+            UnityEngine.Debug.Log("More than one camera (should call error here...)");
 
-                World.EntityManager.RemoveComponent<LookingForCamera>(e);
-            }).WithoutBurst().WithStructuralChanges().Run();
+        float3 camPoint = camList[0].transform.position;
+        //float3 camPoint = Camera.current.transform.position;
 
         // Update player movement
         Entities
             .WithAll<NetPlayer>()
-            .ForEach((DynamicBuffer<NetSimpleMoveInput> inputBuffer, ref Movable mov, ref Rotation rot,
-                ref Translation trans, in PredictedGhostComponent prediction) =>
+            .ForEach((DynamicBuffer<NetSimpleMoveInput> inputBuffer, ref Movable mov, ref Rotation rot, ref Translation trans, in PredictedGhostComponent prediction) =>
+        {
+            if (!GhostPredictionSystemGroup.ShouldPredict(tick, prediction))
+                return;
+
+            NetSimpleMoveInput input;
+            inputBuffer.GetDataAtTick(tick, out input);
+
+            /* Cube input
+            if (input.horizontal > 0)
+                trans.Value.x += deltaTime;
+            if (input.horizontal < 0)
+                trans.Value.x -= deltaTime;
+            if (input.vertical > 0)
+                trans.Value.z += deltaTime;
+            if (input.vertical < 0)
+                trans.Value.z -= deltaTime;
+            */
+
+            //float3 dirFromCam = trans.Value - camPoint;
+
+            //check if camera position input is reasonable, otherwise don't update direction
+            if (math.abs(math.distance(trans.Value, input.cameraPosition)) < 20)
             {
-                if (!GhostPredictionSystemGroup.ShouldPredict(tick, prediction))
-                    return;
+                UnityEngine.Debug.Log("NetMove: Player position " + trans.Value);
+                //UnityEngine.Debug.Log("NetMove: Camera position " + input.cameraPosition);
+                UnityEngine.Debug.Log(string.Format("NetMove: Input - Tick {0} - Horizontal {1} - Vertical {2} - CameraPosition {3}", input.Tick, input.horizontal, input.vertical, input.cameraPosition));
 
-                NetSimpleMoveInput input;
-                inputBuffer.GetDataAtTick(tick, out input);
-
-                float3 camPoint = cameraTransform != null ? new float3(cameraTransform.position) : float3.zero;
-
-                float3 dirFromCam = trans.Value - camPoint;
+                float3 dirFromCam = trans.Value - input.cameraPosition;
 
                 dirFromCam.y = 0;
 
-                var forward = math.normalize(dirFromCam);
-                var right = math.cross(forward, new float3(0, 1, 0));
+                UnityEngine.Debug.Log("NetMove: Direction from camera " + dirFromCam);
 
-                var moveDir = (forward * input.vertical) + (right * -input.horizontal);
+                float3 forward = math.forward(rot.Value);
+
+                //use camera direction as forward if non-zero
+                if (math.length(dirFromCam) > 0)
+                {
+                    forward = math.normalize(dirFromCam);
+                    UnityEngine.Debug.Log("NetMove: camera forward " + forward);
+                }
+                else UnityEngine.Debug.Log("NetMove: player forward " + forward);
+
+                float3 right = math.cross(forward, new float3(0, 1, 0));
+
+                UnityEngine.Debug.Log("NetMove: right " + right);
+
+                float3 moveDir = (forward * input.vertical) + (right * -input.horizontal);
 
                 mov.direction = moveDir;
+                UnityEngine.Debug.Log("NetMove: New move direction " + moveDir);
 
                 if (math.abs(input.horizontal + input.vertical) > 0.1f)
                 {
                     rot.Value = quaternion.LookRotation(moveDir, new float3(0, 1, 0));
                 }
+            }
 
-            }).WithoutBurst().Run();
+        }).ScheduleParallel();
     }
 }
