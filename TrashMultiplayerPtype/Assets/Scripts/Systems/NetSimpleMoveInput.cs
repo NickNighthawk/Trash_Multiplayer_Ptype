@@ -43,7 +43,7 @@ public class SampleNetSimpleMoveInput : SystemBase
         else
         {
             cameraPosition = mainCam.transform.position;
-            UnityEngine.Debug.Log("Input Camera position " + cameraPosition);
+            //UnityEngine.Debug.Log("Input Camera position " + cameraPosition);
         }
 
         if (localInput == Entity.Null)
