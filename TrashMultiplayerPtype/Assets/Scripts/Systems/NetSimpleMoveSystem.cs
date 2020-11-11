@@ -41,9 +41,9 @@ public class NetSimpleMoveSystem : SystemBase
 
             //float3 dirFromCam = trans.Value - camPoint;
 
-            UnityEngine.Debug.Log("NetMove: Player position " + trans.Value);
+            //UnityEngine.Debug.Log("NetMove: Player position " + trans.Value);
             //UnityEngine.Debug.Log("NetMove: Camera position " + input.cameraPosition);
-            UnityEngine.Debug.Log(string.Format("NetMove: Input - Tick {0} - Horizontal {1} - Vertical {2} - CameraPosition {3}", input.Tick, input.horizontal, input.vertical, input.cameraPosition));
+            //UnityEngine.Debug.Log(string.Format("NetMove: Input - Tick {0} - Horizontal {1} - Vertical {2} - CameraPosition {3}", input.Tick, input.horizontal, input.vertical, input.cameraPosition));
 
             float3 dirFromCam = trans.Value - input.cameraPosition;
             //float3 dirFromCam = trans.Value - camPoint;
@@ -51,9 +51,6 @@ public class NetSimpleMoveSystem : SystemBase
             dirFromCam.y = 0;
 
             //UnityEngine.Debug.Log("NetMove: Direction from camera " + dirFromCam);
-
-            //Rotate around y axis only
-
 
             float3 forward = math.forward(rot.Value);
 
