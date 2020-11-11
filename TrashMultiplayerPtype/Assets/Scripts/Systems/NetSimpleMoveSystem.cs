@@ -39,55 +39,44 @@ public class NetSimpleMoveSystem : SystemBase
             NetSimpleMoveInput input;
             inputBuffer.GetDataAtTick(tick, out input);
 
-            /* Cube input
-            if (input.horizontal > 0)
-                trans.Value.x += deltaTime;
-            if (input.horizontal < 0)
-                trans.Value.x -= deltaTime;
-            if (input.vertical > 0)
-                trans.Value.z += deltaTime;
-            if (input.vertical < 0)
-                trans.Value.z -= deltaTime;
-            */
-
             //float3 dirFromCam = trans.Value - camPoint;
 
-            //check if camera position input is reasonable, otherwise don't update direction
-            if (math.abs(math.distance(trans.Value, input.cameraPosition)) < 20)
+            UnityEngine.Debug.Log("NetMove: Player position " + trans.Value);
+            //UnityEngine.Debug.Log("NetMove: Camera position " + input.cameraPosition);
+            UnityEngine.Debug.Log(string.Format("NetMove: Input - Tick {0} - Horizontal {1} - Vertical {2} - CameraPosition {3}", input.Tick, input.horizontal, input.vertical, input.cameraPosition));
+
+            float3 dirFromCam = trans.Value - input.cameraPosition;
+            //float3 dirFromCam = trans.Value - camPoint;
+
+            dirFromCam.y = 0;
+
+            //UnityEngine.Debug.Log("NetMove: Direction from camera " + dirFromCam);
+
+            //Rotate around y axis only
+
+
+            float3 forward = math.forward(rot.Value);
+
+            //use camera direction as forward if non-zero
+            if (math.length(dirFromCam) > 0)
             {
-                UnityEngine.Debug.Log("NetMove: Player position " + trans.Value);
-                //UnityEngine.Debug.Log("NetMove: Camera position " + input.cameraPosition);
-                UnityEngine.Debug.Log(string.Format("NetMove: Input - Tick {0} - Horizontal {1} - Vertical {2} - CameraPosition {3}", input.Tick, input.horizontal, input.vertical, input.cameraPosition));
+                forward = math.normalize(dirFromCam);
+                //UnityEngine.Debug.Log("NetMove: camera forward " + forward);
+            }
+            //else UnityEngine.Debug.Log("NetMove: player forward " + forward);
 
-                float3 dirFromCam = trans.Value - input.cameraPosition;
+            float3 right = math.cross(forward, new float3(0, 1, 0));
 
-                dirFromCam.y = 0;
+            //UnityEngine.Debug.Log("NetMove: right " + right);
 
-                UnityEngine.Debug.Log("NetMove: Direction from camera " + dirFromCam);
+            float3 moveDir = (forward * input.vertical) + (right * -input.horizontal);
 
-                float3 forward = math.forward(rot.Value);
+            mov.direction = moveDir;
+            //UnityEngine.Debug.Log("NetMove: New move direction " + moveDir);
 
-                //use camera direction as forward if non-zero
-                if (math.length(dirFromCam) > 0)
-                {
-                    forward = math.normalize(dirFromCam);
-                    UnityEngine.Debug.Log("NetMove: camera forward " + forward);
-                }
-                else UnityEngine.Debug.Log("NetMove: player forward " + forward);
-
-                float3 right = math.cross(forward, new float3(0, 1, 0));
-
-                UnityEngine.Debug.Log("NetMove: right " + right);
-
-                float3 moveDir = (forward * input.vertical) + (right * -input.horizontal);
-
-                mov.direction = moveDir;
-                UnityEngine.Debug.Log("NetMove: New move direction " + moveDir);
-
-                if (math.abs(input.horizontal + input.vertical) > 0.1f)
-                {
-                    rot.Value = quaternion.LookRotation(moveDir, new float3(0, 1, 0));
-                }
+            if (math.abs(input.horizontal + input.vertical) > 0.1f)
+            {
+                rot.Value = quaternion.LookRotation(moveDir, new float3(0, 1, 0));
             }
 
         }).ScheduleParallel();

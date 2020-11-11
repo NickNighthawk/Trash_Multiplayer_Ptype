@@ -8,4 +8,5 @@ public struct Movable : IComponentData
 {
     public float speed;
     public float3 direction;
+    public bool lockVerticalRotation;
 }

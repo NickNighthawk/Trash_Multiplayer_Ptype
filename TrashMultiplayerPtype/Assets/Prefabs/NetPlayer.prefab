@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_MotionType: 0
-  m_Smoothing: 0
+  m_Smoothing: 1
   m_Mass: 50
   m_LinearDamping: 0.1
   m_AngularDamping: 0.05
@@ -225,7 +225,7 @@ MonoBehaviour:
     m_Friction:
       m_Override: 0
       m_Value:
-        Value: 0.5
+        Value: 0.2
         CombineMode: 0
     m_Restitution:
       m_Override: 0
@@ -332,6 +332,7 @@ MonoBehaviour:
     x: 0
     y: 0
     z: 0
+  lockVerticalRotation: 0
 --- !u!114 &-2728112047540518199
 MonoBehaviour:
   m_ObjectHideFlags: 0
