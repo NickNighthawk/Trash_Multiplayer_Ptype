@@ -6,6 +6,7 @@ using Unity.Networking.Transport;
 using Unity.Burst;
 using Unity.Collections;
 using UnityEngine;
+using Unity.Mathematics;
 
 public struct EnableNetSimpleMove : IComponentData
 {}
@@ -119,6 +120,18 @@ public class GoInGameServerSystem : SystemBase
             if (EntityManager.HasComponent<NetSubscene>(prefabs[ghostId].Value))
                 subscenePrefab = prefabs[ghostId].Value;
         }
+
+        float3 spawnPoint = float3.zero;
+
+        var spawnCommandBuffer = new EntityCommandBuffer(Allocator.Temp);
+        Entities
+            .ForEach((Entity e, ref SpawnPoint sPoint) =>
+            {
+                spawnPoint = sPoint.Value;
+                UnityEngine.Debug.Log(String.Format("Setting spawn point to {0}",spawnPoint));
+                spawnCommandBuffer.DestroyEntity(e);
+            }).Run();
+        spawnCommandBuffer.Playback(EntityManager);
 
         var commandBuffer = new EntityCommandBuffer(Allocator.Temp);
         var networkIdFromEntity = GetComponentDataFromEntity<NetworkIdComponent>(true);

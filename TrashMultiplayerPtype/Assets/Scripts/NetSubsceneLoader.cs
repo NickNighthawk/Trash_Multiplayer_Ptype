@@ -39,7 +39,7 @@ public class NetSubsceneLoader : SystemBase
             playerPositions.Add(translation.Value);
         }).Run();
 
-        Debug.Log(String.Format("SubSceneLoading: {0} Player positions", playerPositions.Length));
+        //Debug.Log(String.Format("SubSceneLoading: {0} Player positions", playerPositions.Length));
 
         Entities
             .ForEach((in NetSubscene netSubscene, in PredictedGhostComponent prediction) =>
@@ -64,7 +64,7 @@ public class NetSubsceneLoader : SystemBase
                     if (!isLoaded && shouldBeLoaded)
                     {
                         LoadSubScene(subscene);
-                        Debug.Log("Loading SubScene " + subscene.SceneName);
+                        //Debug.Log("Loading SubScene " + subscene.SceneName);
                         return;
                     }
 
@@ -72,7 +72,7 @@ public class NetSubsceneLoader : SystemBase
                     if(isLoaded && !shouldBeLoaded)
                     {
                         UnloadSubScene(subscene);
-                        Debug.Log("Unloading SubScene " + subscene.SceneName);
+                        //Debug.Log("Unloading SubScene " + subscene.SceneName);
                         return;
                     }
                 }
