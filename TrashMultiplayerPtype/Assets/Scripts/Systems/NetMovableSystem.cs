@@ -8,6 +8,7 @@ using Unity.Physics;
 using Unity.Transforms;
 using Unity.NetCode;
 
+[UpdateInGroup(typeof(GhostPredictionSystemGroup))]
 public class NetMovableSystem : SystemBase
 {
     GhostPredictionSystemGroup m_GhostPredictionSystemGroup;
@@ -30,6 +31,6 @@ public class NetMovableSystem : SystemBase
             physVel.Linear = step;
             physMass.InverseInertia.x = 0f;
             physMass.InverseInertia.z = 0f;
-        }).Schedule();
+        }).ScheduleParallel();
     }
 }
