@@ -21,17 +21,10 @@ public class NetSimpleMoveSystem : SystemBase
         //float maxCamDistance = 5f;
         float3 camDebugPos = new float3(0,2,2);
 
-        var camList = Camera.allCameras;
-        if (camList.Length > 1)
-            UnityEngine.Debug.Log("More than one camera (should call error here...)");
-
-        float3 camPoint = camList[0].transform.position;
-        //float3 camPoint = Camera.current.transform.position;
-
         // Update player movement
         Entities
             .WithAll<NetPlayer>()
-            .ForEach((DynamicBuffer<NetSimpleMoveInput> inputBuffer, ref Movable mov, ref Rotation rot, ref Translation trans, in PredictedGhostComponent prediction) =>
+            .ForEach((DynamicBuffer<NetSimpleMoveInput> inputBuffer, DynamicBuffer<CollisionBuffer> col, ref Movable mov, ref Rotation rot, ref Translation trans, in PredictedGhostComponent prediction) =>
         {
             if (!GhostPredictionSystemGroup.ShouldPredict(tick, prediction))
                 return;
@@ -39,15 +32,16 @@ public class NetSimpleMoveSystem : SystemBase
             NetSimpleMoveInput input;
             inputBuffer.GetDataAtTick(tick, out input);
 
-            //float3 dirFromCam = trans.Value - camPoint;
+            if (col.IsEmpty == false)
+                input.isGrounded = true;
+            else
+                input.isGrounded = false;
 
             //UnityEngine.Debug.Log("NetMove: Player position " + trans.Value);
             //UnityEngine.Debug.Log("NetMove: Camera position " + input.cameraPosition);
             //UnityEngine.Debug.Log(string.Format("NetMove: Input - Tick {0} - Horizontal {1} - Vertical {2} - CameraPosition {3}", input.Tick, input.horizontal, input.vertical, input.cameraPosition));
 
             float3 dirFromCam = trans.Value - input.cameraPosition;
-            //float3 dirFromCam = trans.Value - camPoint;
-
             dirFromCam.y = 0;
 
             //UnityEngine.Debug.Log("NetMove: Direction from camera " + dirFromCam);
@@ -62,13 +56,25 @@ public class NetSimpleMoveSystem : SystemBase
             }
             //else UnityEngine.Debug.Log("NetMove: player forward " + forward);
 
-            float3 right = math.cross(forward, new float3(0, 1, 0));
-
+            float3 right = math.cross(forward, new float3(0, 1, 0));            //what does this do?
             //UnityEngine.Debug.Log("NetMove: right " + right);
-            float3 jumpForce = (input.isJumping ? 1 : 0) * new float3(0, 2, 0);
 
+            float3 jumpForce = new float3(0, 10, 0);
+            float3 moveDir = (forward * input.vertical) + (right * -input.horizontal); //on ground, not jumping
 
-            float3 moveDir = (forward * input.vertical) + (right * -input.horizontal) + jumpForce;
+            if (input.isGrounded && input.isJumping) //on ground, jumping
+            {
+                moveDir =+ jumpForce;
+            }
+            else if(!input.isGrounded && input.isJumping) //not on ground, jumping
+            {
+                moveDir = -new float3(0, 2, 0);
+            }
+            else if (!input.isGrounded && !input.isJumping) //not on ground, not jumping...
+            {
+                //could add a down force... (like gravity)
+                moveDir =- new float3(0, 2, 0);
+            }
 
             mov.direction = moveDir;
             //UnityEngine.Debug.Log("NetMove: New move direction " + moveDir);

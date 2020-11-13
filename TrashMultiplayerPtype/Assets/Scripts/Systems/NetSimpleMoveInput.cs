@@ -15,6 +15,7 @@ public struct NetSimpleMoveInput : ICommandData
     public int vertical;
     public float3 cameraPosition;
     public bool isJumping;
+    public bool isGrounded;
 }
 
 [UpdateInGroup(typeof(ClientSimulationSystemGroup))]
@@ -84,3 +85,6 @@ public class SampleNetSimpleMoveInput : SystemBase
         inputBuffer.AddCommandData(input);
     }
 }
+
+//is grounded check, which will return false if player is not colliding with ground.
+//if isgrounded (and isjumping) is true - apply jump force, if false do not. 
