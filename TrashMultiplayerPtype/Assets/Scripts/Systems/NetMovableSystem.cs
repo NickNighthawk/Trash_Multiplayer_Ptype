@@ -25,7 +25,7 @@ public class NetMovableSystem : SystemBase
                 return;
 
             var step = mov.direction * mov.speed;
-            physVel.Linear = step;
+            physVel.Linear += step;
             physMass.InverseInertia.x = 0f;
             physMass.InverseInertia.z = 0f;
         }).ScheduleParallel();
