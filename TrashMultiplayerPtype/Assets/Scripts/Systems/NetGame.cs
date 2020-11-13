@@ -7,6 +7,7 @@ using Unity.Burst;
 using Unity.Collections;
 using UnityEngine;
 using Unity.Mathematics;
+using UnityEngine.Rendering;
 
 public struct EnableNetSimpleMove : IComponentData
 {}
@@ -94,6 +95,8 @@ public class GoInGameClientSystem : SystemBase
     }
 }
 
+//
+
 // When server receives go in game request, go in game and delete request
 [UpdateInGroup(typeof(ServerSimulationSystemGroup))]
 [AlwaysSynchronizeSystem]
@@ -121,20 +124,9 @@ public class GoInGameServerSystem : SystemBase
                 subscenePrefab = prefabs[ghostId].Value;
         }
 
-        float3 spawnPoint = float3.zero;
-
-        var spawnCommandBuffer = new EntityCommandBuffer(Allocator.Temp);
-        Entities
-            .ForEach((Entity e, ref SpawnPoint sPoint) =>
-            {
-                spawnPoint = sPoint.Value;
-                UnityEngine.Debug.Log(String.Format("Setting spawn point to {0}",spawnPoint));
-                spawnCommandBuffer.DestroyEntity(e);
-            }).Run();
-        spawnCommandBuffer.Playback(EntityManager);
-
         var commandBuffer = new EntityCommandBuffer(Allocator.Temp);
         var networkIdFromEntity = GetComponentDataFromEntity<NetworkIdComponent>(true);
+
         Entities
             .WithReadOnly(networkIdFromEntity)
             .ForEach((Entity reqEnt, in GoInGameRequest req, in ReceiveRpcCommandRequestComponent reqSrc) =>

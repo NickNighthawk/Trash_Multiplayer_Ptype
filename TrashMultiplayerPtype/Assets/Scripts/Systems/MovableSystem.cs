@@ -1,4 +1,5 @@
-﻿using Unity.Burst;
+﻿using System;
+using Unity.Burst;
 using Unity.Collections;
 using Unity.Entities;
 using Unity.Jobs;
@@ -11,11 +12,13 @@ public class MovableSystem : SystemBase
     protected override void OnUpdate()
     {
         Entities
-            .ForEach((ref PhysicsVelocity physVel, ref Rotation rot, in Movable mov) =>
+            .WithNone<NetPlayer>()
+            .ForEach((ref PhysicsVelocity physVel, ref PhysicsMass physMass, ref Rotation rot, in Movable mov) =>
         {
             var step = mov.direction * mov.speed;
-            physVel.Linear = step;
-            rot.Value = quaternion.LookRotation(math.forward(rot.Value), new float3(0, 1, 0));
+            physVel.Linear += step;
+            physMass.InverseInertia.x = 0f;
+            physMass.InverseInertia.z = 0f;
         }).Schedule();
     }
 }
