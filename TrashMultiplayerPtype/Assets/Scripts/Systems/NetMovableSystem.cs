@@ -1,9 +1,13 @@
-﻿using Unity.Entities;
+﻿using System;
+using Unity.Burst;
+using Unity.Collections;
+using Unity.Entities;
+using Unity.Jobs;
+using Unity.Mathematics;
 using Unity.Physics;
 using Unity.Transforms;
 using Unity.NetCode;
 
-[UpdateInGroup(typeof(GhostPredictionSystemGroup))]
 public class NetMovableSystem : SystemBase
 {
     GhostPredictionSystemGroup m_GhostPredictionSystemGroup;
@@ -12,11 +16,9 @@ public class NetMovableSystem : SystemBase
     {
         m_GhostPredictionSystemGroup = World.GetExistingSystem<GhostPredictionSystemGroup>();
     }
-
     protected override void OnUpdate()
     {
         var tick = m_GhostPredictionSystemGroup.PredictingTick;
-
         Entities
             .WithAll<NetPlayer>()
             .ForEach((ref PhysicsVelocity physVel, ref PhysicsMass physMass, ref Rotation rot, in Movable mov, in PredictedGhostComponent prediction) =>
@@ -25,9 +27,9 @@ public class NetMovableSystem : SystemBase
                 return;
 
             var step = mov.direction * mov.speed;
-            physVel.Linear += step;
+            physVel.Linear = step;
             physMass.InverseInertia.x = 0f;
             physMass.InverseInertia.z = 0f;
-        }).ScheduleParallel();
+        }).Schedule();
     }
 }

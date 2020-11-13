@@ -137,7 +137,7 @@ MonoBehaviour:
   m_MotionType: 0
   m_Smoothing: 1
   m_Mass: 50
-  m_LinearDamping: 0.001
+  m_LinearDamping: 0.1
   m_AngularDamping: 0.05
   m_InitialLinearVelocity:
     x: 0
@@ -147,7 +147,7 @@ MonoBehaviour:
     x: 0
     y: 0
     z: 0
-  m_GravityFactor: 40
+  m_GravityFactor: 9.8
   m_OverrideDefaultMassDistribution: 0
   m_CenterOfMass:
     x: 0
@@ -327,7 +327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d71d71dfbfe2cd9409a7bdeeb5000478, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 10
   direction:
     x: 0
     y: 0
