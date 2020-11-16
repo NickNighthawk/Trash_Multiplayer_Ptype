@@ -49,6 +49,7 @@ GameObject:
   - component: {fileID: -2280752394381069384}
   - component: {fileID: -8978018054381376538}
   - component: {fileID: 7352488686813272682}
+  - component: {fileID: 5194018492851170099}
   m_Layer: 0
   m_Name: NetPlayer
   m_TagString: Untagged
@@ -64,7 +65,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6865646660331462356}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -115.93, y: -47.95, z: -528.65}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6865646660549361371}
@@ -184,7 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b275e5f92732148048d7b77e264ac30e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShapeType: 1
+  m_ShapeType: 3
   m_PrimitiveCenter:
     x: 0
     y: 0
@@ -221,11 +222,11 @@ MonoBehaviour:
     m_Template: {fileID: 0}
     m_CollisionResponse:
       m_Override: 0
-      m_Value: 0
+      m_Value: 1
     m_Friction:
       m_Override: 0
       m_Value:
-        Value: 0.05
+        Value: 0.296
         CombineMode: 0
     m_Restitution:
       m_Override: 0
@@ -327,7 +328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d71d71dfbfe2cd9409a7bdeeb5000478, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 5
   direction:
     x: 0
     y: 0
@@ -397,6 +398,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b982ffde5abb18d41bae4c05caa3e4cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5194018492851170099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6865646660331462356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 703b181f8951bb3489525c9f0e55e833, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6865646660549361372
