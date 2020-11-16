@@ -74,6 +74,7 @@ public class SampleNetSimpleMoveInput : SystemBase
         if (Input.GetKey("s"))
             input.vertical -= 1;
         if (Input.GetKey("w"))
+            input.vertical += 1;
 
         //input.isJumping = (Input.GetKey(KeyCode.Space));
 
