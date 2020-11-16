@@ -15,7 +15,6 @@ public class PlayerMoveSystem : SystemBase
         var dt = Time.DeltaTime;
         float3 cameraPosition = Camera.main.transform.position;
 
-        
         Entities
             .WithAll<CameraTag>()
             .ForEach((ref Translation translation) =>
@@ -42,7 +41,7 @@ public class PlayerMoveSystem : SystemBase
                     rot.Value = quaternion.LookRotation(moveDir, new float3(0, 1, 0));
                 }
 
-                
+
             }).Schedule();
 
     }
