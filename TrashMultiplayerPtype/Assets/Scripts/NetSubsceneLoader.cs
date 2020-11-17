@@ -33,7 +33,7 @@ public class NetSubsceneLoader : SystemBase
         NativeList<float3> playerPositions = new NativeList<float3>(Allocator.Temp);
 
         Entities
-            .WithAll<NetPlayer>()
+            .WithAll<NetCharacterControllerComponent>()
             .ForEach((in Translation translation) =>
         {
             playerPositions.Add(translation.Value);

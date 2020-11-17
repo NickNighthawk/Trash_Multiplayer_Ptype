@@ -11,14 +11,17 @@ public class MovableSystem : SystemBase
 {
     protected override void OnUpdate()
     {
+        var deltaTime = Time.DeltaTime;
         Entities
             .WithNone<NetPlayer>()
-            .ForEach((ref PhysicsVelocity physVel, ref PhysicsMass physMass, ref Rotation rot, in Movable mov) =>
-        {
-            var step = mov.direction * mov.speed;
-            physVel.Linear = step;
-            physMass.InverseInertia.x = 0f;
-            physMass.InverseInertia.z = 0f;
-        }).Schedule();
+            .ForEach((ref Translation trans, ref Rotation rot, ref CharacterControllerComponent cControl) =>
+            {
+                var step = (cControl.CurrentDirection * cControl.CurrentMagnitude) * deltaTime;
+                cControl.CurrentMagnitude -= cControl.CurrentMagnitude * cControl.Drag * deltaTime;
+                trans.Value += step;
+                var lookRotation = new float3(cControl.CurrentDirection.x, 0, cControl.CurrentDirection.z);
+                rot.Value = quaternion.LookRotationSafe(lookRotation, new float3(0,1,0));
+
+            }).Run();
     }
 }

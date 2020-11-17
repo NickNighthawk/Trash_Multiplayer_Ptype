@@ -20,8 +20,10 @@ namespace Assembly_CSharp.Generated
             writer.WriteFloat(data.cameraPosition.x);
             writer.WriteFloat(data.cameraPosition.y);
             writer.WriteFloat(data.cameraPosition.z);
+            writer.WriteUInt(data.isSprinting ? 1u : 0);
             writer.WriteUInt(data.isJumping ? 1u : 0);
             writer.WriteUInt(data.isGrounded ? 1u : 0);
+            writer.WriteUInt(data.isCrouching ? 1u : 0);
         }
 
         public void Deserialize(ref DataStreamReader reader, ref NetSimpleMoveInput data)
@@ -31,8 +33,10 @@ namespace Assembly_CSharp.Generated
             data.cameraPosition.x = reader.ReadFloat();
             data.cameraPosition.y = reader.ReadFloat();
             data.cameraPosition.z = reader.ReadFloat();
+            data.isSprinting = (reader.ReadUInt() != 0) ? true : false;
             data.isJumping = (reader.ReadUInt() != 0) ? true : false;
             data.isGrounded = (reader.ReadUInt() != 0) ? true : false;
+            data.isCrouching = (reader.ReadUInt() != 0) ? true : false;
         }
 
         public void Serialize(ref DataStreamWriter writer, in NetSimpleMoveInput data, in NetSimpleMoveInput baseline, NetworkCompressionModel compressionModel)
@@ -42,8 +46,10 @@ namespace Assembly_CSharp.Generated
             writer.WritePackedFloatDelta(data.cameraPosition.x, baseline.cameraPosition.x, compressionModel);
             writer.WritePackedFloatDelta(data.cameraPosition.y, baseline.cameraPosition.y, compressionModel);
             writer.WritePackedFloatDelta(data.cameraPosition.z, baseline.cameraPosition.z, compressionModel);
+            writer.WritePackedUInt(data.isSprinting ? 1u : 0, compressionModel);
             writer.WritePackedUInt(data.isJumping ? 1u : 0, compressionModel);
             writer.WritePackedUInt(data.isGrounded ? 1u : 0, compressionModel);
+            writer.WritePackedUInt(data.isCrouching ? 1u : 0, compressionModel);
         }
 
         public void Deserialize(ref DataStreamReader reader, ref NetSimpleMoveInput data, in NetSimpleMoveInput baseline, NetworkCompressionModel compressionModel)
@@ -53,8 +59,10 @@ namespace Assembly_CSharp.Generated
             data.cameraPosition.x = reader.ReadPackedFloatDelta(baseline.cameraPosition.x, compressionModel);
             data.cameraPosition.y = reader.ReadPackedFloatDelta(baseline.cameraPosition.y, compressionModel);
             data.cameraPosition.z = reader.ReadPackedFloatDelta(baseline.cameraPosition.z, compressionModel);
+            data.isSprinting = (reader.ReadPackedUInt(compressionModel) != 0) ? true : false;
             data.isJumping = (reader.ReadPackedUInt(compressionModel) != 0) ? true : false;
             data.isGrounded = (reader.ReadPackedUInt(compressionModel) != 0) ? true : false;
+            data.isCrouching = (reader.ReadPackedUInt(compressionModel) != 0) ? true : false;
         }
     }
     public class NetSimpleMoveInputSendCommandSystem : CommandSendSystem<NetSimpleMoveInputSerializer, NetSimpleMoveInput>

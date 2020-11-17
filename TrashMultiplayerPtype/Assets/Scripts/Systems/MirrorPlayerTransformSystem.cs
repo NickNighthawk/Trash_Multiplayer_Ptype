@@ -24,7 +24,7 @@ public class MirrorPlayerTransformSystem : SystemBase
             Debug.Log("instance of follow is null");
             return;
         }
-        
+
         float3 GOpos = Follow.instance.transform.position;
         quaternion GOrot = Follow.instance.transform.rotation;
 

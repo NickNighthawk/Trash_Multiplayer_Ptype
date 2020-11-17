@@ -113,7 +113,7 @@ public class GoInGameServerSystem : SystemBase
         var ghostCollection = GetSingletonEntity<GhostPrefabCollectionComponent>();
         var playerPrefab = Entity.Null;
         var subscenePrefab = Entity.Null;
-        //var cameraPrefab = Entity.Null;
+
         var prefabs = EntityManager.GetBuffer<GhostPrefabBuffer>(ghostCollection);
         for (int ghostId = 0; ghostId < prefabs.Length; ++ghostId)
         {
@@ -134,6 +134,7 @@ public class GoInGameServerSystem : SystemBase
             commandBuffer.AddComponent<NetworkStreamInGame>(reqSrc.SourceConnection);
             UnityEngine.Debug.Log(String.Format("Server setting connection {0} to in game", networkIdFromEntity[reqSrc.SourceConnection].Value));
 
+            //Instantiate objects
             var player = commandBuffer.Instantiate(playerPrefab);
             var subscene = commandBuffer.Instantiate(subscenePrefab);
 

@@ -407,12 +407,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ghosts:
-  - prefab: {fileID: -8876176014356732821, guid: da306c4c06146b447a696433e0ad6fe8,
+  - prefab: {fileID: 1530258810065972124, guid: 2f763c55b5c61b14980e42b6a533dfbf,
       type: 3}
     enabled: 1
   - prefab: {fileID: 1318920672704497196, guid: 735145f6bce650b4195291dfe6b0893d,
       type: 3}
     enabled: 1
-  - prefab: {fileID: 2714418147008333674, guid: 45cd2d127257a84499bd680083eef14b,
-      type: 3}
-    enabled: 0

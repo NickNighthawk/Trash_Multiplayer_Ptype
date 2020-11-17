@@ -1,4 +1,5 @@
 
+using System;
 using Unity.Entities;
 using Unity.NetCode;
 using Unity.Networking.Transport;
@@ -14,8 +15,10 @@ public struct NetSimpleMoveInput : ICommandData
     public int horizontal;
     public int vertical;
     public float3 cameraPosition;
+    public bool isSprinting;
     public bool isJumping;
     public bool isGrounded;
+    public bool isCrouching;
 
 }
 
@@ -83,7 +86,20 @@ public class SampleNetSimpleMoveInput : SystemBase
         if (Input.GetKeyUp(KeyCode.Space))
             input.isJumping = false;
 
+        if (Input.GetKey(KeyCode.LeftShift))
+                    input.isSprinting = true;
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+                    input.isSprinting = false;
+
+        // Crouching
+        if (Input.GetKey(KeyCode.LeftControl))
+            input.isCrouching = true;
+        if (Input.GetKeyUp(KeyCode.LeftControl))
+            input.isCrouching = false;
+
         input.cameraPosition = cameraPosition;
+
+        //if(Input.anyKey) Debug.Log(String.Format("Input system; {0}", input));
 
         var inputBuffer = EntityManager.GetBuffer<NetSimpleMoveInput>(localInput);
         inputBuffer.AddCommandData(input);
