@@ -32,7 +32,7 @@ public class NetPlayerMovementSystem : SystemBase
                 Entity entity,
                 ref NetCharacterControllerComponent controller,
                 ref Rotation rot,
-                in DirectionFromCamera dirFromCam,
+                in Translation translation,
                 in PredictedGhostComponent prediction
             ) =>
         {
@@ -43,15 +43,17 @@ public class NetPlayerMovementSystem : SystemBase
             NetSimpleMoveInput input;
             inputBuffer.GetDataAtTick(tick, out input);
 
+            var dirFromCam = translation.Value - input.cameraPosition;
+
             float movementX = input.horizontal;
             float movementZ = input.vertical;
             float movementY = (input.isJumping ? 1.0f : 0.0f) + (input.isCrouching ? -1.0f : 0.0f);
 
             //Debug.Log(String.Format("Movement system: direction from camera: {0}", dirFromCam.Value));
 
-            if(math.isnan(dirFromCam.Value.x) || math.isnan(dirFromCam.Value.y) || math.isnan(dirFromCam.Value.z)) return;
+            if(math.isnan(dirFromCam.x) || math.isnan(dirFromCam.y) || math.isnan(dirFromCam.z)) return;
 
-            float3 forward = math.normalize(new float3(dirFromCam.Value.x, 0.0f, dirFromCam.Value.z));
+            float3 forward = math.normalize(new float3(dirFromCam.x, 0.0f, dirFromCam.z));
             float3 up = new float3(0, 1, 0);
             float3 right = -math.cross(forward, up);
 
