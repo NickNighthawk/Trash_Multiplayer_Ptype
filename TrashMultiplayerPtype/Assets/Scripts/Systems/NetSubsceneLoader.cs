@@ -8,63 +8,64 @@ using Unity.NetCode;
 using UnityEngine.Rendering;
 using Unity.Collections;
 
-[UpdateInGroup(typeof(GhostPredictionSystemGroup))]
-[UpdateAfter(typeof(NetSimpleMoveSystem))]
+[UpdateInGroup(typeof(ClientSimulationSystemGroup))]
+[AlwaysSynchronizeSystem]
 public class NetSubsceneLoader : SystemBase
 {
-    GhostPredictionSystemGroup m_GhostPredictionSystemGroup;
-
     SceneSystem sceneSystem;
-
+    GhostPredictionSystemGroup m_GhostPredictionSystemGroup;
+    //ClientSimulationSystemGroup m_ClientSimulationSystemGroup;
 
     protected override void OnCreate()
     {
-        m_GhostPredictionSystemGroup = World.GetExistingSystem<GhostPredictionSystemGroup>();
-        RequireSingletonForUpdate<EnableNetSubsceneLoading>();
+        RequireSingletonForUpdate<NetworkIdComponent>();
         sceneSystem = World.GetOrCreateSystem<SceneSystem>();
-
+        m_GhostPredictionSystemGroup = World.GetExistingSystem<GhostPredictionSystemGroup>();
+        //m_ClientSimulationSystemGroup = World.GetExistingSystem<ClientSimulationSystemGroup>();
     }
     protected override void OnUpdate()
     {
-
         var tick = m_GhostPredictionSystemGroup.PredictingTick;
+        //var tick = m_ClientSimulationSystemGroup.InterpolationTick;
         var deltaTime = Time.DeltaTime;
 
-        NativeList<float3> playerPositions = new NativeList<float3>(Allocator.Temp);
+        float3 playerPosition = float3.zero;
 
         Entities
-            .WithAll<NetCharacterControllerComponent>()
-            .ForEach((in Translation translation) =>
-        {
-            playerPositions.Add(translation.Value);
-        }).Run();
-
-        //Debug.Log(String.Format("SubSceneLoading: {0} Player positions", playerPositions.Length));
-
-        Entities
-            .ForEach((in NetSubscene netSubscene, in PredictedGhostComponent prediction) =>
+            .WithNone<NetPlayer>()
+            .WithAll<NetPlayerControllerComponent>()
+            .ForEach((Entity e, ref Translation trans, in PredictedGhostComponent prediction) =>
             {
                 if (!GhostPredictionSystemGroup.ShouldPredict(tick, prediction))
                     return;
 
+                playerPosition = trans.Value;
+
+            }).Run();
+
+
+        Entities
+            .WithAll<EnableNetSubsceneLoading>()
+            .ForEach((Entity e, in NetSubscene netSubscene, in PredictedGhostComponent prediction) =>
+            {
+                if (!GhostPredictionSystemGroup.ShouldPredict(tick, prediction))
+                    return;
+
+                //Debug.Log("NetSubscene");
                 foreach (SubScene subscene in netSubscene.SubScenes)
                 {
                     var isLoaded = sceneSystem.IsSceneLoaded(sceneSystem.GetSceneEntity(subscene.SceneGUID));
 
-                    var shouldBeLoaded = false;
-
                     //check if any player is in range
-                    foreach (float3 playerPosition in playerPositions)
-                    {
-                        if(math.distance(playerPosition, subscene.transform.position) <=
-                                           netSubscene.LoadDistance) shouldBeLoaded = true;
-                    }
+                    float distanceToPlayer = math.distance(playerPosition, subscene.transform.position);
+                    bool shouldBeLoaded = distanceToPlayer <= netSubscene.LoadDistance;
+                    Debug.Log(String.Format("SubSceneLoading: Scene {0} distance from player {1} should be loaded {2} is loaded {3}", subscene.SceneName, distanceToPlayer, shouldBeLoaded, isLoaded));
 
                     //if a player is in range & scene isn't loaded, load it
                     if (!isLoaded && shouldBeLoaded)
                     {
                         LoadSubScene(subscene);
-                        //Debug.Log("Loading SubScene " + subscene.SceneName);
+                        Debug.Log(String.Format("SubSceneLoading: Loading subscene {0}", subscene.SceneName));
                         return;
                     }
 
@@ -72,14 +73,12 @@ public class NetSubsceneLoader : SystemBase
                     if(isLoaded && !shouldBeLoaded)
                     {
                         UnloadSubScene(subscene);
-                        //Debug.Log("Unloading SubScene " + subscene.SceneName);
+                        Debug.Log(String.Format("SubSceneLoading: Unloading subscene {0} ", subscene.SceneName));
                         return;
                     }
                 }
 
             }).WithoutBurst().WithStructuralChanges().Run();
-
-        playerPositions.Dispose();
     }
 
     private void LoadSubScene(SubScene subScene)

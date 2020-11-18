@@ -10,6 +10,7 @@ public class NetSubsceneAuth : MonoBehaviour, IConvertGameObjectToEntity
     public float loadDistance = 15;
     public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)
     {
+        dstManager.AddComponentData(entity, new EnableNetSubsceneLoading());
         dstManager.AddComponentData(entity, new NetSubscene(){SubScenes = subscenes, LoadDistance = loadDistance});
     }
 }
@@ -18,4 +19,8 @@ public class NetSubscene : IComponentData
 {
     public SubScene[] SubScenes;
     public float LoadDistance;
+}
+
+public struct EnableNetSubsceneLoading : IComponentData
+{
 }
