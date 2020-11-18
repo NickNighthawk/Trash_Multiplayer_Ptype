@@ -11,6 +11,7 @@ using UnityEngine.Rendering;
 /// Main control system for player input.
 /// </summary>
 [UpdateInGroup(typeof(GhostPredictionSystemGroup))]
+[AlwaysSynchronizeSystem]
 public class NetPlayerMovementSystem : SystemBase
 {
     GhostPredictionSystemGroup m_GhostPredictionSystemGroup;
