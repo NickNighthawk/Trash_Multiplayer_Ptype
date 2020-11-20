@@ -1,7 +1,6 @@
 ﻿using Unity.Physics;
 
-namespace VertexFragment
-{
+
     /// <summary>
     /// Different hard-coded layers that a physics object may exist in and/or collide with.
     /// </summary>
@@ -142,7 +141,7 @@ namespace VertexFragment
 
         /// <summary>
         /// Used to construct more complex filters than the default provided ones. For example:
-        /// 
+        ///
         /// <code>
         ///     // A filter which is dynamic, but collides with static and dynamic (not trigger volumes, etc.).
         ///     var filter = PhysicsCollisionFilters.Build((uint)CollisionFilterLayers.Dynamic, (uint)CollisionFilterLayers.Static, (uint)CollisionFilterLayers.Dynamic);
@@ -166,4 +165,3 @@ namespace VertexFragment
             return filter;
         }
     }
-}

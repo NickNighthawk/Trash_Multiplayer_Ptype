@@ -1,9 +1,11 @@
 ﻿using System;
+using Unity.Collections;
 using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Transforms;
 using UnityEngine;
 using Unity.NetCode;
+using Unity.Physics;
 
 [UpdateInGroup(typeof(GhostPredictionSystemGroup))]
 [AlwaysSynchronizeSystem]
@@ -19,8 +21,9 @@ public class NetMovableSystem : SystemBase
         var tick = m_GhostPredictionSystemGroup.PredictingTick;
         var deltaTime = Time.DeltaTime;
 
+        // Non-physics body movement
         Entities
-            .WithNone<NetPlayer>()
+            .WithNone<PhysicsVelocity>()
             .WithAll<NetPlayerControllerComponent>()
             .ForEach((Entity e, ref Translation trans, ref Rotation rot, ref NetCharacterControllerComponent cControl, in PredictedGhostComponent prediction) =>
             {
@@ -42,5 +45,7 @@ public class NetMovableSystem : SystemBase
                 //Debug.Log(String.Format("Movable component system: Translation {0}, Magnitude {1}, Rotation {2}", trans.Value, newMagnitude, newRotation));
 
             }).ScheduleParallel();
+
+
     }
 }
