@@ -71,9 +71,14 @@ using UnityEngine;
         public float MaxStep { get; set; }
 
         /// <summary>
-        /// Drag value applied to reduce the <see cref="VerticalVelocity"/>.
+        /// Drag value applied whilst grounded.
         /// </summary>
-        public float Drag { get; set; }
+        public float DragGrounded { get; set; }
+
+        /// <summary>
+        /// Drag value applied whilst not grounded.
+        /// </summary>
+        public float DragInAir { get; set; }
 
         // -------------------------------------------------------------------------------------
         // Control State
@@ -107,7 +112,8 @@ using UnityEngine;
         public float JumpStrength = 9.0f;
         public float CrouchStrength = 9.0f;
         public float MaxStep = 0.35f;
-        public float Drag = 0.2f;
+        public float DragGrounded = 0.2f;
+        public float DragInAir = 0.05f;
 
         public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)
         {
@@ -124,7 +130,8 @@ using UnityEngine;
                 JumpStrength = JumpStrength,
                 CrouchStrength = CrouchStrength,
                 MaxStep = MaxStep,
-                Drag = Drag
+                DragGrounded = DragGrounded,
+                DragInAir =DragInAir
             });
         }
     }

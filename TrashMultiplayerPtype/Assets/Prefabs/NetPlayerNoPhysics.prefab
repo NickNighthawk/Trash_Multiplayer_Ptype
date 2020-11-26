@@ -337,14 +337,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Gravity:
     x: 0
-    y: -22
+    y: 0
     z: 0
-  MaxSpeed: 6
-  Speed: 3
-  JumpStrength: 6
-  CrouchStrength: 6
+  MaxSpeed: 2
+  Speed: 1
+  JumpStrength: 3
+  CrouchStrength: 3
   MaxStep: 0.35
-  Drag: 0.2
+  DragGrounded: 0.2
+  DragInAir: 0.05
 --- !u!114 &284967373524309977
 MonoBehaviour:
   m_ObjectHideFlags: 0
