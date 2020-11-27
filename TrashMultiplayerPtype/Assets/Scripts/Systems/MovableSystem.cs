@@ -6,6 +6,7 @@ using Unity.Jobs;
 using Unity.Mathematics;
 using Unity.Physics;
 using Unity.Transforms;
+using VertexFragment;
 
 public class MovableSystem : SystemBase
 {

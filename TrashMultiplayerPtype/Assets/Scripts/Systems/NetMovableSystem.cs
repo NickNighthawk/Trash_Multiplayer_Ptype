@@ -7,9 +7,10 @@ using UnityEngine;
 using Unity.NetCode;
 using Unity.Physics;
 
+/*
 [UpdateInGroup(typeof(GhostPredictionSystemGroup))]
 [AlwaysSynchronizeSystem]
-public class NetMovableSystem : SystemBase
+public class NetMovableSystem : SystemBase //DISABLED
 {
     GhostPredictionSystemGroup m_GhostPredictionSystemGroup;
     protected override void OnCreate()
@@ -18,12 +19,13 @@ public class NetMovableSystem : SystemBase
     }
     protected override void OnUpdate()
     {
+
         var tick = m_GhostPredictionSystemGroup.PredictingTick;
         var deltaTime = Time.DeltaTime;
 
         // Non-physics body movement
         Entities
-            .WithAll<NetPlayerControllerComponent>()
+            .WithNone<NetPlayerControllerComponent>()
             .ForEach((Entity e, ref Translation trans, ref Rotation rot, ref NetCharacterControllerComponent cControl, in PredictedGhostComponent prediction) =>
             {
                 if (!GhostPredictionSystemGroup.ShouldPredict(tick, prediction))
@@ -39,12 +41,12 @@ public class NetMovableSystem : SystemBase
                 // Player input opposing force
                 var inputStoppingForce = float3.zero;
 
-                /* Currently not working as intended. Maybe don't need it anyhow.
+                 Currently not working as intended. Maybe don't need it anyhow.
                 if (math.pow((currentVelocity.x + inputVelocity.x), 2) < math.pow(currentVelocity.x, 2))
                     inputStoppingForce.x = -cControl.InputStoppingForce;
                 if (math.pow((currentVelocity.z + inputVelocity.z), 2) < math.pow(currentVelocity.z, 2))
                     inputStoppingForce.z = -cControl.InputStoppingForce;
-                */
+
 
                 // Ground Check
                 bool isGrounded = cControl.IsGrounded;
@@ -86,4 +88,6 @@ public class NetMovableSystem : SystemBase
 
 
     }
+
 }
+*/

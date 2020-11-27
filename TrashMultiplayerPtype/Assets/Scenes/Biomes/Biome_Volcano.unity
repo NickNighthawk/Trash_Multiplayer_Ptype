@@ -287,8 +287,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -322,8 +322,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -515,8 +515,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -550,8 +550,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -759,8 +759,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -794,8 +794,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -987,8 +987,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -1022,8 +1022,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -1215,8 +1215,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -1250,8 +1250,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -1459,8 +1459,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -1494,8 +1494,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -1687,8 +1687,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -1722,8 +1722,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -1931,8 +1931,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -1966,8 +1966,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -2175,8 +2175,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -2210,8 +2210,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -2415,8 +2415,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -2450,8 +2450,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -2643,8 +2643,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -2678,8 +2678,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -2871,8 +2871,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -2906,8 +2906,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -3111,8 +3111,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -3146,8 +3146,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -3339,8 +3339,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -3374,8 +3374,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -3567,8 +3567,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -3602,8 +3602,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -3658,7 +3658,6 @@ GameObject:
   - component: {fileID: 121512307}
   - component: {fileID: 121512310}
   - component: {fileID: 121512309}
-  - component: {fileID: 121512308}
   m_Layer: 0
   m_Name: ChallengeMid
   m_TagString: Untagged
@@ -3680,19 +3679,6 @@ Transform:
   m_Father: {fileID: 2089138583}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &121512308
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 121512306}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &121512309
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3890,8 +3876,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -3925,8 +3911,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -4118,8 +4104,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -4153,8 +4139,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -4209,7 +4195,6 @@ GameObject:
   - component: {fileID: 122498621}
   - component: {fileID: 122498624}
   - component: {fileID: 122498623}
-  - component: {fileID: 122498622}
   m_Layer: 0
   m_Name: ChallengeSml
   m_TagString: Untagged
@@ -4231,19 +4216,6 @@ Transform:
   m_Father: {fileID: 2089138583}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &122498622
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 122498620}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &122498623
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4304,7 +4276,6 @@ GameObject:
   - component: {fileID: 148545108}
   - component: {fileID: 148545111}
   - component: {fileID: 148545110}
-  - component: {fileID: 148545109}
   m_Layer: 0
   m_Name: ChallengeSml
   m_TagString: Untagged
@@ -4326,19 +4297,6 @@ Transform:
   m_Father: {fileID: 2089138583}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &148545109
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 148545107}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &148545110
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4524,8 +4482,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -4559,8 +4517,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -4764,8 +4722,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -4799,8 +4757,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -4992,8 +4950,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -5027,8 +4985,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -5208,8 +5166,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -5243,8 +5201,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -5436,8 +5394,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -5471,8 +5429,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -5680,8 +5638,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -5715,8 +5673,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -5924,8 +5882,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -5959,8 +5917,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -6152,8 +6110,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -6187,8 +6145,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -6380,8 +6338,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -6415,8 +6373,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -6624,8 +6582,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -6659,8 +6617,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -6852,8 +6810,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -6887,8 +6845,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -7080,8 +7038,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -7115,8 +7073,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -7308,8 +7266,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -7343,8 +7301,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -7552,8 +7510,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -7587,8 +7545,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -7780,8 +7738,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -7815,8 +7773,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -8008,8 +7966,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -8043,8 +8001,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -8236,8 +8194,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -8271,8 +8229,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -8480,8 +8438,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -8515,8 +8473,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -8708,8 +8666,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -8743,8 +8701,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -8936,8 +8894,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -8971,8 +8929,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -9180,8 +9138,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -9215,8 +9173,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -9408,8 +9366,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -9443,8 +9401,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -9636,8 +9594,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -9671,8 +9629,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -9864,8 +9822,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -9899,8 +9857,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -10104,8 +10062,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -10139,8 +10097,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -10332,8 +10290,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -10367,8 +10325,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -10560,8 +10518,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -10595,8 +10553,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -10804,8 +10762,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -10839,8 +10797,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -11032,8 +10990,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -11067,8 +11025,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -11276,8 +11234,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -11311,8 +11269,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -11504,8 +11462,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -11539,8 +11497,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -11744,8 +11702,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -11779,8 +11737,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -11972,8 +11930,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -12007,8 +11965,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -12200,8 +12158,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -12235,8 +12193,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -12440,8 +12398,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -12475,8 +12433,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -12684,8 +12642,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -12719,8 +12677,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -12928,8 +12886,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -12963,8 +12921,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -13156,8 +13114,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -13191,8 +13149,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -13384,8 +13342,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -13419,8 +13377,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -13628,8 +13586,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -13663,8 +13621,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -13740,7 +13698,7 @@ Transform:
   m_LocalScale: {x: 0.9354419, y: 2.9758265, z: 0.7586755}
   m_Children: []
   m_Father: {fileID: 937360771}
-  m_RootOrder: 326
+  m_RootOrder: 324
   m_LocalEulerAnglesHint: {x: 8.838, y: 108.724, z: 0}
 --- !u!64 &418602063
 MeshCollider:
@@ -13868,8 +13826,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -13903,8 +13861,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -13980,7 +13938,7 @@ Transform:
   m_LocalScale: {x: 0.9354419, y: 2.9758265, z: 2.0119627}
   m_Children: []
   m_Father: {fileID: 937360771}
-  m_RootOrder: 314
+  m_RootOrder: 307
   m_LocalEulerAnglesHint: {x: -87.658, y: 108.724, z: 0}
 --- !u!64 &429482985
 MeshCollider:
@@ -14108,8 +14066,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -14143,8 +14101,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -14324,8 +14282,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -14359,8 +14317,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -14552,8 +14510,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -14587,8 +14545,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -14792,8 +14750,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -14827,8 +14785,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -14883,7 +14841,6 @@ GameObject:
   - component: {fileID: 461613382}
   - component: {fileID: 461613385}
   - component: {fileID: 461613384}
-  - component: {fileID: 461613383}
   m_Layer: 0
   m_Name: ChallengeSml
   m_TagString: Untagged
@@ -14905,19 +14862,6 @@ Transform:
   m_Father: {fileID: 2089138583}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &461613383
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 461613381}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &461613384
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15115,8 +15059,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -15150,8 +15094,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -15343,8 +15287,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -15378,8 +15322,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -15587,8 +15531,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -15622,8 +15566,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -15831,8 +15775,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -15866,8 +15810,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -16059,8 +16003,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -16094,8 +16038,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -16287,8 +16231,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -16322,8 +16266,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -16515,8 +16459,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -16550,8 +16494,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -16759,8 +16703,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -16794,8 +16738,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -16987,8 +16931,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -17022,8 +16966,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -17215,8 +17159,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -17250,8 +17194,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -17459,8 +17403,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -17494,8 +17438,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -17687,8 +17631,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -17722,8 +17666,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -17915,8 +17859,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -17950,8 +17894,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -18155,8 +18099,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -18190,8 +18134,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -18399,8 +18343,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -18434,8 +18378,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -18627,8 +18571,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -18662,8 +18606,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -18871,8 +18815,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -18906,8 +18850,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -19099,8 +19043,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -19134,8 +19078,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -19343,8 +19287,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -19378,8 +19322,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -19571,8 +19515,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -19606,8 +19550,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -19811,8 +19755,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -19846,8 +19790,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -20039,8 +19983,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -20074,8 +20018,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -20267,8 +20211,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -20302,8 +20246,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -20511,8 +20455,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -20546,8 +20490,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -20739,8 +20683,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -20774,8 +20718,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -20983,8 +20927,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -21018,8 +20962,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -21211,8 +21155,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -21246,8 +21190,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -21439,8 +21383,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -21474,8 +21418,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -21679,8 +21623,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -21714,8 +21658,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -21907,8 +21851,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -21942,8 +21886,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -22135,8 +22079,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -22170,8 +22114,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -22363,8 +22307,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -22398,8 +22342,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -22591,8 +22535,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -22626,8 +22570,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -22819,8 +22763,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -22854,8 +22798,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -23047,8 +22991,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -23082,8 +23026,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -23275,8 +23219,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -23310,8 +23254,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -23503,8 +23447,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -23538,8 +23482,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -23731,8 +23675,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -23766,8 +23710,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -23975,8 +23919,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -24010,8 +23954,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -24203,8 +24147,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -24238,8 +24182,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -24431,8 +24375,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -24466,8 +24410,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -24659,8 +24603,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -24694,8 +24638,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -24899,8 +24843,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -24934,8 +24878,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -25143,8 +25087,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -25178,8 +25122,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -25371,8 +25315,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -25406,8 +25350,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -25599,8 +25543,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -25634,8 +25578,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -25827,8 +25771,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -25862,8 +25806,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -25918,7 +25862,6 @@ GameObject:
   - component: {fileID: 829270140}
   - component: {fileID: 829270143}
   - component: {fileID: 829270142}
-  - component: {fileID: 829270141}
   m_Layer: 0
   m_Name: ChallengeSml
   m_TagString: Untagged
@@ -25940,19 +25883,6 @@ Transform:
   m_Father: {fileID: 2089138583}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &829270141
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829270139}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &829270142
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26150,8 +26080,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -26185,8 +26115,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -26394,8 +26324,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -26429,8 +26359,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -26622,8 +26552,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -26657,8 +26587,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -26850,8 +26780,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -26885,8 +26815,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -27078,8 +27008,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -27113,8 +27043,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -27306,8 +27236,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -27341,8 +27271,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -27534,8 +27464,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -27569,8 +27499,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -27625,7 +27555,6 @@ GameObject:
   - component: {fileID: 888511844}
   - component: {fileID: 888511847}
   - component: {fileID: 888511846}
-  - component: {fileID: 888511845}
   m_Layer: 0
   m_Name: ChallengeMid
   m_TagString: Untagged
@@ -27647,19 +27576,6 @@ Transform:
   m_Father: {fileID: 2089138583}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &888511845
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 888511843}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &888511846
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27857,8 +27773,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -27892,8 +27808,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -28085,8 +28001,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -28120,8 +28036,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -28197,7 +28113,7 @@ Transform:
   m_LocalScale: {x: 2.666824, y: 2.9758265, z: 2.571931}
   m_Children: []
   m_Father: {fileID: 937360771}
-  m_RootOrder: 239
+  m_RootOrder: 227
   m_LocalEulerAnglesHint: {x: 0, y: 134.289, z: 0}
 --- !u!64 &911404781
 MeshCollider:
@@ -28325,8 +28241,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -28360,8 +28276,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -28553,8 +28469,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -28588,8 +28504,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -28781,8 +28697,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -28816,8 +28732,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -29009,8 +28925,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -29044,8 +28960,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -29253,8 +29169,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -29288,8 +29204,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -29481,8 +29397,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -29516,8 +29432,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -29709,8 +29625,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -29744,8 +29660,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -29953,8 +29869,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -29988,8 +29904,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -30247,6 +30163,7 @@ Transform:
   - {fileID: 2037100066}
   - {fileID: 262974160}
   - {fileID: 1275204465}
+  - {fileID: 1618243227}
   - {fileID: 169551076}
   - {fileID: 2037687220}
   - {fileID: 1599687380}
@@ -30280,13 +30197,13 @@ Transform:
   - {fileID: 1315105619}
   - {fileID: 1118059268}
   - {fileID: 1081824616}
-  - {fileID: 1618243227}
   - {fileID: 119111001}
   - {fileID: 475902459}
   - {fileID: 1877406106}
   - {fileID: 619542511}
   - {fileID: 2017693784}
   - {fileID: 668849280}
+  - {fileID: 911404780}
   - {fileID: 2597003}
   - {fileID: 1459596125}
   - {fileID: 1395363290}
@@ -30299,7 +30216,6 @@ Transform:
   - {fileID: 47723076}
   - {fileID: 934758557}
   - {fileID: 1500627954}
-  - {fileID: 911404780}
   - {fileID: 49328950}
   - {fileID: 189541308}
   - {fileID: 348176819}
@@ -30367,6 +30283,7 @@ Transform:
   - {fileID: 1117672965}
   - {fileID: 1902409762}
   - {fileID: 149608410}
+  - {fileID: 429482984}
   - {fileID: 153901394}
   - {fileID: 2061914085}
   - {fileID: 202293153}
@@ -30374,7 +30291,6 @@ Transform:
   - {fileID: 1015703318}
   - {fileID: 1240308032}
   - {fileID: 1732236594}
-  - {fileID: 429482984}
   - {fileID: 1029315099}
   - {fileID: 1747969175}
   - {fileID: 715832826}
@@ -30384,9 +30300,9 @@ Transform:
   - {fileID: 2039597814}
   - {fileID: 1878544399}
   - {fileID: 2092316612}
+  - {fileID: 418602062}
   - {fileID: 94841508}
   - {fileID: 755699266}
-  - {fileID: 418602062}
   - {fileID: 465583974}
   - {fileID: 1113303311}
   - {fileID: 1184749748}
@@ -30544,8 +30460,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -30579,8 +30495,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -30772,8 +30688,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -30807,8 +30723,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -31012,8 +30928,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -31047,8 +30963,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -31240,8 +31156,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -31275,8 +31191,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -31468,8 +31384,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -31503,8 +31419,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -31708,8 +31624,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -31743,8 +31659,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -31948,8 +31864,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -31983,8 +31899,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -32176,8 +32092,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -32211,8 +32127,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -32404,8 +32320,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -32439,8 +32355,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -32632,8 +32548,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -32667,8 +32583,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -32876,8 +32792,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -32911,8 +32827,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -33120,8 +33036,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -33155,8 +33071,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -33348,8 +33264,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -33383,8 +33299,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -33576,8 +33492,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -33611,8 +33527,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -33804,8 +33720,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -33839,8 +33755,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -34032,8 +33948,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -34067,8 +33983,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -34276,8 +34192,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -34311,8 +34227,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -34516,8 +34432,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -34551,8 +34467,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -34744,8 +34660,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -34779,8 +34695,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -34988,8 +34904,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -35023,8 +34939,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -35216,8 +35132,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -35251,8 +35167,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -35444,8 +35360,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -35479,8 +35395,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -35672,8 +35588,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -35707,8 +35623,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -35900,8 +35816,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -35935,8 +35851,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -36128,8 +36044,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -36163,8 +36079,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -36356,8 +36272,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -36391,8 +36307,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -36584,8 +36500,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -36619,8 +36535,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -36812,8 +36728,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -36847,8 +36763,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -37056,8 +36972,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -37091,8 +37007,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -37300,8 +37216,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -37335,8 +37251,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -37528,8 +37444,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -37563,8 +37479,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -37772,8 +37688,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -37807,8 +37723,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -38000,8 +37916,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -38035,8 +37951,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -38228,8 +38144,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -38263,8 +38179,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -38456,8 +38372,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -38491,8 +38407,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -38684,8 +38600,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -38719,8 +38635,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -38912,8 +38828,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -38947,8 +38863,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -39152,8 +39068,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -39187,8 +39103,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -39380,8 +39296,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -39415,8 +39331,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -39624,8 +39540,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -39659,8 +39575,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -39715,7 +39631,6 @@ GameObject:
   - component: {fileID: 1211623820}
   - component: {fileID: 1211623823}
   - component: {fileID: 1211623822}
-  - component: {fileID: 1211623821}
   m_Layer: 0
   m_Name: ChallengeSml
   m_TagString: Untagged
@@ -39737,19 +39652,6 @@ Transform:
   m_Father: {fileID: 2089138583}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1211623821
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211623819}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1211623822
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39963,8 +39865,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -39998,8 +39900,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -40191,8 +40093,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -40226,8 +40128,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -40435,8 +40337,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -40470,8 +40372,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -40663,8 +40565,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -40698,8 +40600,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -40754,7 +40656,6 @@ GameObject:
   - component: {fileID: 1226459703}
   - component: {fileID: 1226459706}
   - component: {fileID: 1226459705}
-  - component: {fileID: 1226459704}
   m_Layer: 0
   m_Name: ChallengeMid
   m_TagString: Untagged
@@ -40776,19 +40677,6 @@ Transform:
   m_Father: {fileID: 2089138583}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1226459704
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1226459702}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1226459705
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -40986,8 +40874,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -41021,8 +40909,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -41437,8 +41325,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -41472,8 +41360,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -41665,8 +41553,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -41700,8 +41588,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -41905,8 +41793,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -41940,8 +41828,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -42145,8 +42033,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -42180,8 +42068,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -42389,8 +42277,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -42424,8 +42312,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -42617,8 +42505,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -42652,8 +42540,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -42845,8 +42733,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -42880,8 +42768,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -43073,8 +42961,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -43108,8 +42996,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -43317,8 +43205,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -43352,8 +43240,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -43561,8 +43449,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -43596,8 +43484,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -43789,8 +43677,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -43824,8 +43712,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -44017,8 +43905,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -44052,8 +43940,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -44245,8 +44133,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -44280,8 +44168,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -44485,8 +44373,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -44520,8 +44408,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -44729,8 +44617,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -44764,8 +44652,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -44957,8 +44845,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -44992,8 +44880,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -45185,8 +45073,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -45220,8 +45108,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -45425,8 +45313,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -45460,8 +45348,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -45665,8 +45553,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -45700,8 +45588,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -45893,8 +45781,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -45928,8 +45816,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -46121,8 +46009,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -46156,8 +46044,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -46349,8 +46237,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -46384,8 +46272,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -46577,8 +46465,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -46612,8 +46500,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -46805,8 +46693,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -46840,8 +46728,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -47033,8 +46921,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -47068,8 +46956,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -47261,8 +47149,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -47296,8 +47184,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -47489,8 +47377,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -47524,8 +47412,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -47717,8 +47605,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -47752,8 +47640,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -47945,8 +47833,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -47980,8 +47868,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -48173,8 +48061,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -48208,8 +48096,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -48401,8 +48289,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -48436,8 +48324,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -48629,8 +48517,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -48664,8 +48552,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -48857,8 +48745,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -48892,8 +48780,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -49085,8 +48973,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -49120,8 +49008,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -49301,8 +49189,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -49336,8 +49224,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -49545,8 +49433,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -49580,8 +49468,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -49789,8 +49677,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -49824,8 +49712,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -50017,8 +49905,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -50052,8 +49940,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -50261,8 +50149,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -50296,8 +50184,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -50489,8 +50377,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -50524,8 +50412,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -50717,8 +50605,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -50752,8 +50640,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -50808,7 +50696,6 @@ GameObject:
   - component: {fileID: 1422709248}
   - component: {fileID: 1422709251}
   - component: {fileID: 1422709250}
-  - component: {fileID: 1422709249}
   m_Layer: 0
   m_Name: ChallengeSml
   m_TagString: Untagged
@@ -50830,19 +50717,6 @@ Transform:
   m_Father: {fileID: 2089138583}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1422709249
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1422709247}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1422709250
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -51040,8 +50914,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -51075,8 +50949,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -51268,8 +51142,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -51303,8 +51177,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -51496,8 +51370,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -51531,8 +51405,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -51724,8 +51598,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -51759,8 +51633,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -51952,8 +51826,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -51987,8 +51861,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -52192,8 +52066,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -52227,8 +52101,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -52432,8 +52306,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -52467,8 +52341,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -52676,8 +52550,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -52711,8 +52585,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -52904,8 +52778,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -52939,8 +52813,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -53132,8 +53006,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -53167,8 +53041,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -53360,8 +53234,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -53395,8 +53269,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -53588,8 +53462,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -53623,8 +53497,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -53832,8 +53706,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -53867,8 +53741,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -54072,8 +53946,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -54107,8 +53981,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -54300,8 +54174,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -54335,8 +54209,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -54528,8 +54402,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -54563,8 +54437,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -54772,8 +54646,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -54807,8 +54681,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -55016,8 +54890,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -55051,8 +54925,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -55244,8 +55118,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -55279,8 +55153,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -55472,8 +55346,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -55507,8 +55381,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -55716,8 +55590,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -55751,8 +55625,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -55960,8 +55834,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -55995,8 +55869,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -56188,8 +56062,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -56223,8 +56097,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -56416,8 +56290,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -56451,8 +56325,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -56644,8 +56518,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -56679,8 +56553,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -56872,8 +56746,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -56907,8 +56781,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -57116,8 +56990,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -57151,8 +57025,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -57344,8 +57218,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -57379,8 +57253,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -57588,8 +57462,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -57623,8 +57497,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -57816,8 +57690,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -57851,8 +57725,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -58044,8 +57918,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -58079,8 +57953,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -58288,8 +58162,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -58323,8 +58197,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -58400,7 +58274,7 @@ Transform:
   m_LocalScale: {x: 2.666824, y: 2.9758265, z: 11.633166}
   m_Children: []
   m_Father: {fileID: 937360771}
-  m_RootOrder: 220
+  m_RootOrder: 187
   m_LocalEulerAnglesHint: {x: 0, y: 156.007, z: 0}
 --- !u!64 &1618243228
 MeshCollider:
@@ -58528,8 +58402,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -58563,8 +58437,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -58756,8 +58630,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -58791,8 +58665,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -58984,8 +58858,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -59019,8 +58893,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -59228,8 +59102,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -59263,8 +59137,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -59468,8 +59342,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -59503,8 +59377,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -59696,8 +59570,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -59731,8 +59605,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -59924,8 +59798,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -59959,8 +59833,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -60152,8 +60026,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -60187,8 +60061,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -60380,8 +60254,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -60415,8 +60289,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -60608,8 +60482,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -60643,8 +60517,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -60836,8 +60710,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -60871,8 +60745,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -61080,8 +60954,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -61115,8 +60989,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -61320,8 +61194,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -61355,8 +61229,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -61548,8 +61422,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -61583,8 +61457,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -61776,8 +61650,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -61811,8 +61685,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -62020,8 +61894,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -62055,8 +61929,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -62248,8 +62122,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -62283,8 +62157,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -62476,8 +62350,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -62511,8 +62385,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -62716,8 +62590,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -62751,8 +62625,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -62944,8 +62818,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -62979,8 +62853,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -63172,8 +63046,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -63207,8 +63081,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -63400,8 +63274,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -63435,8 +63309,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -63628,8 +63502,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -63663,8 +63537,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -63868,8 +63742,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -63903,8 +63777,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -64096,8 +63970,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -64131,8 +64005,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -64340,8 +64214,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -64375,8 +64249,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -64568,8 +64442,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -64603,8 +64477,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -65041,8 +64915,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -65076,8 +64950,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -65269,8 +65143,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -65304,8 +65178,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -65513,8 +65387,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -65548,8 +65422,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -65757,8 +65631,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -65792,8 +65666,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -65985,8 +65859,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -66020,8 +65894,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -66213,8 +66087,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -66248,8 +66122,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -66441,8 +66315,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -66476,8 +66350,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -66669,8 +66543,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -66704,8 +66578,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -66897,8 +66771,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -66932,8 +66806,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -67113,8 +66987,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -67148,8 +67022,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -67341,8 +67215,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -67376,8 +67250,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -67569,8 +67443,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -67604,8 +67478,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -67797,8 +67671,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -67832,8 +67706,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -68025,8 +67899,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -68060,8 +67934,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -68269,8 +68143,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -68304,8 +68178,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -68497,8 +68371,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -68532,8 +68406,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -68725,8 +68599,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -68760,8 +68634,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -68969,8 +68843,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -69004,8 +68878,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -69197,8 +69071,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -69232,8 +69106,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -69425,8 +69299,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -69460,8 +69334,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -69653,8 +69527,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -69688,8 +69562,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -69881,8 +69755,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -69916,8 +69790,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -70109,8 +69983,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -70144,8 +70018,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -70337,8 +70211,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -70372,8 +70246,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -70565,8 +70439,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -70600,8 +70474,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -70793,8 +70667,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -70828,8 +70702,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -71021,8 +70895,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -71056,8 +70930,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -71265,8 +71139,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -71300,8 +71174,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -71509,8 +71383,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -71544,8 +71418,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -71749,8 +71623,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -71784,8 +71658,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -71993,8 +71867,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -72028,8 +71902,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -72221,8 +72095,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -72256,8 +72130,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -72465,8 +72339,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -72500,8 +72374,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -72693,8 +72567,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -72728,8 +72602,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -72937,8 +72811,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -72972,8 +72846,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -73181,8 +73055,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -73216,8 +73090,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -73409,8 +73283,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -73444,8 +73318,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -73637,8 +73511,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -73672,8 +73546,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -73865,8 +73739,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -73900,8 +73774,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -74093,8 +73967,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -74128,8 +74002,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -74321,8 +74195,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -74356,8 +74230,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -74561,8 +74435,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -74596,8 +74470,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -74805,8 +74679,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -74840,8 +74714,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -75033,8 +74907,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -75068,8 +74942,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -75261,8 +75135,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -75296,8 +75170,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -75505,8 +75379,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -75540,8 +75414,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -75733,8 +75607,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -75768,8 +75642,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -75961,8 +75835,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -75996,8 +75870,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -76229,8 +76103,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -76264,8 +76138,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -76457,8 +76331,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -76492,8 +76366,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -76685,8 +76559,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -76720,8 +76594,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -76929,8 +76803,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -76964,8 +76838,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -77157,8 +77031,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -77192,8 +77066,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -77385,8 +77259,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -77420,8 +77294,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -77613,8 +77487,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -77648,8 +77522,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -77857,8 +77731,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -77892,8 +77766,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -78097,8 +77971,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -78132,8 +78006,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -78325,8 +78199,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -78360,8 +78234,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -78569,8 +78443,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -78604,8 +78478,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -78797,8 +78671,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -78832,8 +78706,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -79025,8 +78899,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -79060,8 +78934,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -79253,8 +79127,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -79288,8 +79162,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0
@@ -79464,8 +79338,8 @@ MonoBehaviour:
     m_BelongsToCategories:
       m_Override: 0
       m_Value:
-        Category00: 0
-        Category01: 1
+        Category00: 1
+        Category01: 0
         Category02: 0
         Category03: 0
         Category04: 0
@@ -79499,8 +79373,8 @@ MonoBehaviour:
     m_CollidesWithCategories:
       m_Override: 0
       m_Value:
-        Category00: 1
-        Category01: 0
+        Category00: 0
+        Category01: 1
         Category02: 0
         Category03: 0
         Category04: 0

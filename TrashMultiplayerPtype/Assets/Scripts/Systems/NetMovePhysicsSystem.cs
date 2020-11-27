@@ -6,7 +6,7 @@ using Unity.Mathematics;
 using Unity.NetCode;
 using Unity.Transforms;
 using Unity.Physics;
-
+/*
 public class NetMovePhysicsSystem : SystemBase
 {
     protected override void OnUpdate()
@@ -35,3 +35,4 @@ public class NetMovePhysicsSystem : SystemBase
             }).ScheduleParallel();
     }
 }
+*/
