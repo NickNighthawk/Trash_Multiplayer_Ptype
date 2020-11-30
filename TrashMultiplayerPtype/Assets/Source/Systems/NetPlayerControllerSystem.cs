@@ -70,14 +70,14 @@ namespace VertexFragment
             if (!MathUtils.IsZero(movementX) || !MathUtils.IsZero(movementZ))
             {
                 controller.CurrentDirection = math.normalize((forward * movementZ) + (right * movementX));
-                controller.CurrentMagnitude = Input.GetKey(KeyCode.LeftShift) ? 1.5f : 1.0f;
+                controller.CurrentMagnitude = input.isSprinting?1.5f:1f;
             }
             else
             {
                 controller.CurrentMagnitude = 0.0f;
             }
 
-            controller.Jump = Input.GetAxis("Jump") > 0.0f;
+            controller.Jump = input.isJumping;
         }
     }
 }
