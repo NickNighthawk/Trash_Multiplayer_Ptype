@@ -653,4 +653,4 @@ MonoBehaviour:
     enabled: 1
   - prefab: {fileID: 1318920672704497196, guid: 735145f6bce650b4195291dfe6b0893d,
       type: 3}
-    enabled: 1
+    enabled: 0
