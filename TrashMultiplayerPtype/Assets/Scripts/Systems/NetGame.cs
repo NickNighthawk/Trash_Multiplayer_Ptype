@@ -7,9 +7,10 @@ using Unity.Burst;
 using Unity.Collections;
 using UnityEngine;
 using Unity.Mathematics;
+using Unity.Transforms;
 using UnityEngine.Rendering;
 
-public struct EnableNetSimpleMove : IComponentData
+public struct EnableNetPlayer : IComponentData
 {}
 
 // Control system updating in the default world
@@ -41,7 +42,7 @@ public class NetGame : SystemBase
             var network = world.GetExistingSystem<NetworkStreamReceiveSystem>();
             if (world.GetExistingSystem<ClientSimulationSystemGroup>() != null)
             {
-                world.EntityManager.CreateEntity(typeof(EnableNetSimpleMove));
+                world.EntityManager.CreateEntity(typeof(EnableNetPlayer));
                 // Client worlds automatically connect to localhost
                 NetworkEndPoint ep = NetworkEndPoint.LoopbackIpv4;
                 ep.Port = 7979;
@@ -54,7 +55,7 @@ public class NetGame : SystemBase
             #if UNITY_EDITOR || UNITY_SERVER
             else if (world.GetExistingSystem<ServerSimulationSystemGroup>() != null)
             {
-                world.EntityManager.CreateEntity(typeof(EnableNetSimpleMove));
+                world.EntityManager.CreateEntity(typeof(EnableNetPlayer));
                 // Server world automatically listen for connections from any host
                 NetworkEndPoint ep = NetworkEndPoint.AnyIpv4;
                 ep.Port = 7979;
@@ -77,7 +78,7 @@ public class GoInGameClientSystem : SystemBase
 {
     protected override void OnCreate()
     {
-        RequireSingletonForUpdate<EnableNetSimpleMove>();
+        RequireSingletonForUpdate<EnableNetPlayer>();
         RequireForUpdate(GetEntityQuery(ComponentType.ReadOnly<NetworkIdComponent>(), ComponentType.Exclude<NetworkStreamInGame>()));
     }
 
@@ -104,7 +105,7 @@ public class GoInGameServerSystem : SystemBase
 {
     protected override void OnCreate()
     {
-        RequireSingletonForUpdate<EnableNetSimpleMove>();
+        RequireSingletonForUpdate<EnableNetPlayer>();
         RequireForUpdate(GetEntityQuery(ComponentType.ReadOnly<GoInGameRequest>(), ComponentType.ReadOnly<ReceiveRpcCommandRequestComponent>()));
     }
 
@@ -136,16 +137,19 @@ public class GoInGameServerSystem : SystemBase
 
             //Instantiate objects
             var player = commandBuffer.Instantiate(playerPrefab);
-            var subscene = commandBuffer.Instantiate(subscenePrefab);
 
             //Player setup
             commandBuffer.SetComponent(player, new PlayerID { playerID = networkIdFromEntity[reqSrc.SourceConnection].Value });
             commandBuffer.SetComponent(player, new GhostOwnerComponent { NetworkId = networkIdFromEntity[reqSrc.SourceConnection].Value});
-            commandBuffer.AddBuffer<NetSimpleMoveInput>(player);
+            commandBuffer.AddBuffer<NetPlayerInput>(player);
             commandBuffer.SetComponent(reqSrc.SourceConnection, new CommandTargetComponent {targetEntity = player});
 
             //Subscene setup
-            commandBuffer.SetComponent(subscene, new GhostOwnerComponent { NetworkId = networkIdFromEntity[reqSrc.SourceConnection].Value});
+            if (subscenePrefab != Entity.Null)
+            {
+                var subscene = commandBuffer.Instantiate(subscenePrefab);
+                commandBuffer.SetComponent(subscene, new GhostOwnerComponent { NetworkId = networkIdFromEntity[reqSrc.SourceConnection].Value});
+            }
 
             commandBuffer.DestroyEntity(reqEnt);
         }).Run();

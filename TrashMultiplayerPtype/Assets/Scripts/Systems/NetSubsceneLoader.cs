@@ -7,6 +7,7 @@ using Unity.Transforms;
 using Unity.NetCode;
 using UnityEngine.Rendering;
 using Unity.Collections;
+using VertexFragment;
 using Hash128 = Unity.Entities.Hash128;
 
 [UpdateInGroup(typeof(GhostPredictionSystemGroup))]
@@ -36,8 +37,7 @@ public class NetSubsceneLoader : SystemBase
         bool newPosition = false;
 
         Entities
-            .WithNone<NetPlayer>()
-            .WithAll<NetPlayerControllerComponent>()
+            .WithAll<CharacterControllerComponent>()
             .ForEach((Entity e, ref Translation trans, in PredictedGhostComponent prediction) =>
             {
                 if (!GhostPredictionSystemGroup.ShouldPredict(tick, prediction))
